@@ -53,3 +53,5 @@ footer_content: "Copyright &copy; 2020."
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+theme: jekyll-theme-minimal
