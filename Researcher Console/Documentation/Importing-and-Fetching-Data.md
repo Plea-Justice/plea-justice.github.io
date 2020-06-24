@@ -5,10 +5,12 @@ permalink: /console/docs/importing-and-fetching-data
 parent: Documentation
 grand_parent: Researcher Console
 ---
-## Static Data
-This is data that isn't and can't be changed while the app is running. Instead, it makes use of code-splitting and builds optimizations.
 
-This data should also generally not be put into the `static/` since everything in that folder is served after being built and the data is already injected in by the bundler (WebPack) at build time. Currently, the `~/data/` is being used for this.
+## Static Data
+
+This is data that can't and won't be changed while the app is running. So instead, it makes use of code-splitting for optimization.
+
+This data should also not be put into the `static/` directory as everything in that folder is served after being built. `assets/` would be an appropriate place for this.
 
 [More Info](https://github.com/nuxt/nuxt.js/issues/123)
 
@@ -24,5 +26,5 @@ This data should also generally not be put into the `static/` since everything i
 ```
 
 ## Dynamic access to Static Data
-Data that needs to be called dynamically or might change during runtime but is/should be packed into the build can be accessed internally by directing Axios to the `static/` as explained in the **Axios** section.
 
+Data that needs to be called dynamically or might change during runtime but is/should be packed into the build can be accessed internally by directing Axios to `static/` as described on the [Axios](/console/docs/axios) page

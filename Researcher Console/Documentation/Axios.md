@@ -10,11 +10,15 @@ grand_parent: Researcher Console
 
 The internal `@nuxtjs/axios` package should be used.
 
-Do NOT use `import axios from "axios"` this will work since `axios` is a sub dependency of `@nuxtjs/axios` however is incorrect. Using the internal `@nuxtjs/axios` package actually does not require any imports and uses a special `$` syntax in front of itself and any of it's methods. For instance if you want to call `axios.get()` You'd actually want to do `$axios.$get()`
+Do **NOT** use `import axios from "axios"` this will work since `axios` is a sub dependency of `@nuxtjs/axios` however is incorrect.
+
+Using the internal `@nuxtjs/axios` package doesn't require any imports and uses a special `$` prefix to identify itself and any of it's chained methods. For instance if you want to call `axios.get()` You would do `$axios.$get()`
 
 The best and most expressive way to access axios from this package is by passing it as an argument inside curly braces to the components constructor, e.g. `thisIsAFunction ({ $axios }) { yourCodeHere }`.
 
-Generally speaking axios get requests should be used with the `async asyncData() {}` parameter of a given Vue page or component. A full example of this...
+Generally speaking axios get requests should be used with the `async asyncData() {}` parameter of a given Vue Page or Component.
+
+A full example of this is offered below...
 
 ```
 <script>
@@ -44,9 +48,10 @@ export default {
 [More on Usage](https://axios.nuxtjs.org/usage.html)
 
 ## Setting up Axios for Deploy
-While `npm run dev` will run axios correctly on your `localhost:[yourPortName]` when deploying it will continue to try to access localhost instead of the URL it has been deployed to.
 
-One way to fix this is to add it a static value for the URL being used; However, a much simpler way is to use the '/' directive which will automatically resolve to itself.
+While `npm run dev` will run axios correctly on your `localhost:{yourPortName}`, when deploying it will try to access localhost instead of the URL it has been deployed to.
+
+One way to fix this is to add a static value for the URL being used; However, a much simpler way is to simply use '/' which will automatically resolve to itself.
 
 To do this open the `nuxt.config.js` file in the root directory and add or modify the `axios: {}` options object underneath `modules: []`, for instance...
 
@@ -76,6 +81,7 @@ export default {
 }
 
 ```
+
 Described Method: (Simpler, not quite as broad)
 [Resource on using Axios baseURL option](https://github.com/nuxt-community/axios-module/issues/134)
 
