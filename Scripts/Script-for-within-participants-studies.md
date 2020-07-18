@@ -8,15 +8,13 @@ parent: Scripts
 
 To read these scripts and understand the meaning behind the formatting, here is a guide to how they are formatted.
 
-* **Bolded text** denotes areas where researchers may want to easily make changes.
-
-* *italicized text* denotes commentary as well as scene descriptions.
-
-* “{User}” denotes the first name of the participant. This name is the one entered in the form on the previous page.
-
-* “>>” denotes a pause at a specific point of text within the simulation and would require pressing the respective button in order to progress.
-
-* > Text boxes denote the text within the dialogue box at a particular point in the simulation or text from assets on the screen.
+<ul>
+  <li> **Bolded text** denotes areas where researchers may want to easily make changes.</li>
+  <li> *italicized text* denotes commentary as well as scene descriptions.</li>
+  <li> “{User}” denotes the first name of the participant. This name is the one entered in the form on the previous page.</li>
+  <li> “>>” denotes a pause at a specific point of text within the simulation and would require pressing the respective button in order to progress.</li>
+  <li> > Text boxes denote the text within the dialogue box at a particular point in the simulation or text from assets on the screen.</li>
+</ul>
 
 </details>
 

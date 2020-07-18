@@ -19,7 +19,7 @@ If you want to take the simulation for a test run, [here is a link to a demo][si
 **Avatar Customization**
 
 <p align="center">
-<img src="./img/avatar_creation.PNG" align="center" alt="menu showing customizable aspects of th e avatar" width="75%">
+<img src="./img/avatar_creation.PNG" align="center" alt="menu showing customizable aspects of the avatar" width="75%">
 </p>
 
 Using this avatar creation interface, users are allowed to customize their own avatar to be used in the simulation with predefined assets. Controls are provided to select figure types, eye types, or hair styles, as well as selecting a color for the hair, eyes, skin, and shirt.
