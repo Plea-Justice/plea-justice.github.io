@@ -6,23 +6,25 @@ parent: Simulation
 ---
 # Adobe Animate File Naming Conventions
 
-### Make sure you are working the latest version of the fla file! Double check on drive.
+All animation assets are stored in the [simulation-assets](https://github.com/Plea-Justice/simulation-assets) repository on GitHub. Backup copies are stored on Google Drive. Always make sure you're working with the latest version of an asset `.fla` and always back up files to Drive.
 
-Break up your Adobe Animate fla animation files as you see fit (back them up on Drive).
+**Layer Names**, however are these agreed upon Condensed files, which have the agreed upon layer naming convention.
 
-**Deliverables**, however are these agreed upon Condensed files, which have the agreed upon layer naming convention.
+## Figures and features are numbered beginning at 0. (i.e. 0, 1, 2...)
 
-## We count from 0, not from 1, for **figures** and **features**
+**figure0** is the new name for our **stereotypically male-looking figure**
 
-**figure0** is a new name for our **stereotypically male-looking figure**
+**figure1** is the new name for our **stereotypically female-looking figure**
 
-**figure1** is a new name for our **stereotypically female-looking figure**
+Going forward, the next figure we add should be named figure2 (later, figure3 and so on).
 
-Going forward, figure2 would be the name for the next figure we add, if we add another (figure3 would be next, and so on)
+Feature layers must be named similarly. For example:
+
+**figure0hair0** is the first hair style on figure0 and **figure1eyes3** is the third eye option on figure1.
 
 
 ## **"Condensed" Files (NOTE: Underscores in file names)**
-### Convention: Scenario[Number]**_**[Type of Scene]**_**Figure[Number]
+### Convention: [Scenario Name]_[Type of Scene]**_**Figure[Number]
 ### Needed files:
 
 
