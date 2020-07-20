@@ -8,13 +8,13 @@ parent: Simulation
 
 All animation assets are stored in the [simulation-assets](https://github.com/Plea-Justice/simulation-assets) repository on GitHub. Backup copies are stored on Google Drive. Always make sure you're working with the latest version of an asset `.fla` and always back up files to Drive.
 
-**Layer Names**, however are these agreed upon Condensed files, which have the agreed upon layer naming convention.
+You may keep your own copies and organization of `.fla` files on your own computer, however each scene must be condensed into one file when uploaded to GitHub or to Drive. **Files** and **Layers** must follow a strict naming convention due to the simulation code. There is **one** condensed file per scene. This file contains all layers of **both** avatar figures (if the avatar is part of the scene) and **all** feature layers of both avatars.
 
-## Figures and features are numbered beginning at 0. (i.e. 0, 1, 2...)
+## Figures and feature layers are numbered beginning at 0. (i.e. 0, 1, 2...)
 
-**figure0** is the new name for our **stereotypically male-looking figure**
+**figure0** is the new name for our **stereotypically male-looking figure**.
 
-**figure1** is the new name for our **stereotypically female-looking figure**
+**figure1** is the new name for our **stereotypically female-looking figure**.
 
 Going forward, the next figure we add should be named figure2 (later, figure3 and so on).
 
@@ -23,80 +23,78 @@ Feature layers must be named similarly. For example:
 **figure0hair0** is the first hair style on figure0 and **figure1eyes3** is the third eye option on figure1.
 
 
-## **"Condensed" Files (NOTE: Underscores in file names)**
-### Convention: [Scenario Name]_[Type of Scene]**_**Figure[Number]
-### Needed files:
+## Filenames consist of the scenario name followed by the scene name and separated by an underscore.
+Always name `.fla` files [Scenario Name]\_[Scene Name]. For example:
+
+**Larceny_FlashbackGuilty.fla** contains the guilty condition flashback scene for the larceny scenario, two avatar layers, six eye option layers, and eight hair option layers. 
 
 
-### Scenario 1 File Names
+### Hit and Run Scenario Scene Files
 
-* Scenario1**_**Intro**_**Figure0.fla
-* Scenario1**_**Intro**_**Figure1.fla
-* Scenario1**_**FlashbackGuilty**_**Figure0.fla
-* Scenario1**_**FlashbackGuilty**_**Figure1.fla
-* Scenario1**_**FlashbackInnocent**_**Figure0.fla
-* Scenario1**_**FlashbackInnocent**_**Figure1.fla
-* Scenario1**_**SecurityFootage**_**AllFigures.fla
+* HitAndRun\_Intro.fla
+* HitAndRun\_FlashbackGuilty.fla
+* HitAndRun\_FlashbackInnocent.fla
+* HitAndRun\_SecurityFootage.fla
 
 **Developer Publishing NOTE:** Scenario1_SecurityFootage_AllFigures.fla doesn't need to be palettized, or have feature versions generated. It just needs to have the var lib definition updated manually using [add-lib.sh](https://github.com/Plea-Justice/pleabargain-simulation/wiki/Palettization%20Guide#add-lib)
 
-### Scenario 2 File Names
+### Larceny Scenario Scene Files
 
-* Scenario2**_**Intro**_**Figure0.fla
-* Scenario2**_**Intro**_**Figure1.fla
-* Scenario2**_**FlashbackGuilty**_**Figure0.fla
-* Scenario2**_**FlashbackGuilty**_**Figure1.fla
-* Scenario2**_**FlashbackInnocent**_**Figure0.fla
-* Scenario2**_**FlashbackInnocent**_**Figure1.fla
-* Scenario2**_**SecurityCam**_**Figure0.fla
-* Scenario2**_**SecurityCam**_**Figure1.fla
+* Larceny\_Intro.fla
+* Larceny\_FlashbackGuilty.fla
+* Larceny\_FlashbackInnocent.fla
+* Larceny\_SecurityCam.fla
 
-### For all Scenarios
+### Scene Files Applicable to All Scenarios
 
-* AllScenarios**_**Jail_Figure0.fla
-* AllScenarios**_**Jail_Figure1.fla
+* AllScenarios\_Jail.fla
+* AllScenarios\_PhoneRoom.fla
 
 
-### Layer Names (use whatever folder organization you want, layers have to be named these:)
-## Note: figure[Number] is the layer name for the avatar figure itself
+### Layer Names
+**Note: figure[Number] is the layer name for the avatar figure itself.**
+Any scene `.fla` file containing the avatar must have all of the following layers according to the conventions above.
 
 * figure0avatar
 * figure0hair0
 * figure0hair1
 * figure0hair2
-* figure0hair3 (NOTE: This is religious headwear)
+* figure0hair3 (Note: This is religious headwear)
 * figure0eyes0
 * figure0eyes1
 * figure0eyes2
-
-### In your other fla file
-
 * figure1avatar
 * figure1hair0
 * figure1hair1
 * figure1hair2
-* figure0hair3 (NOTE: This is religious headwear)
+* figure0hair3 (Note: This is religious headwear)
 * figure1eyes0
 * figure1eyes1
 * figure1eyes2
 
-### In the screenshot below, the Animator chose a nice layer folder organization as she saw fit. The only important thing is the layer names (order of layers doesn't matter), not anything to do with what folders they are in or whatever
+These layers may be organized into any folder organization you wish as long as the layers themselves have these names _exactly_ with no spaces.
+
+### Example Workspace
 
 <img src="/img/file_names.png">
 
-## Other Guidelines
+## Additional Guidelines
 
-Every file created is created as a **Full HD** **1920 x 1080** file. This is every asset, including actors.
+Do not use a version of Adobe Animate older than 20.0.4.
 
-Every file must be created as an **HTML5 Canvas file** in **Adobe Animate**. Make sure to set Basic and Advanced Publishing Settings like so: Basic (nothing checked), HTML/JS: Overwrite, Hosted Libraries, Compact Shapes. **Under these settings, hidden layers WILL NOT be published, just fyi.**
+Every file must be created as a **Full HD 1920 x 1080** file. This is every asset, including actors.
+
+Every file must be created as an **HTML5 Canvas File** in **Adobe Animate**.
+
+Make sure to set Basic and Advanced Publishing Settings like so: Basic (nothing checked), HTML/JS: Overwrite, Hosted Libraries, Compact Shapes. **Under these settings, hidden layers will not be published**.
 
 <img src="/img/file_settings1.png">
 
 <img src="/img/file_settings2.png">
 
-Don't rely on stage color to produce a background. Stage color is omitted in publishing by Animate. If a background color is needed, such as a solid yellow background for Scenario2_Intro_Figure0 (or 1).fla, create an explicit background layer with the rectangle shape taking up full stage and color it.
+Don't rely on stage color to produce a background. Stage color is omitted in publishing by Animate. If a background color is needed, such as a solid yellow background for Larceny_Intro.fla, create an explicit background layer with the rectangle shape taking up full stage and color it.
 
-Use Classic Tweens in Adobe Animate where possible. Any animated figure should be a Graphic symbol with a minimal walk cycle. Moving the animated figure across the stage should be done with time-saving Classic Tween whenever possible (vs. frame-by-frame animation).
+Use _Classic Tweens_ in Animate where possible. Any animated figure should be a _Graphic Symbol_ with a minimal walk cycle. Moving the animated figure across the stage should be done with time-saving _Classic Tween_ whenever possible (vs. frame-by-frame animation).
 
 Take care to backup your working fla files on your own backup drive as well as on the shared drive. When uploading files, please do it under your own unique user and not as a shared user so contributions can be properly attributed. In other words, don't log into drive as the admin@pleajustice.org user to upload. Upload your 'condensed' files as described in Deliverables above to their appropriate folders and **overwrite** the old files with the same name. Google Drive will ask if you want to overwrite or keep version separate, you **do not** want to keep them separate. We can always go back to an old version with 'Manage Versions'.
 
