@@ -6,10 +6,13 @@ parent: Simulation
 ---
 # Palettization Guide
 
-## Avatar Palette
+## Avatar Reserved Color Palette
 
-These colors are **RESERVED** to allow the avatar customization to work.
-**Do not use these colors for anything else.**
+These colors are **reserved** to allow the avatar customization to work.
+
+**Do not use these colors for anything other than the avatar.**
+
+Copy and paste the color codes _exactly_. The eyedropper tool does not accurately find the exact color code. Animate supports [find and replace for colors](https://helpx.adobe.com/au/animate/using/find-replace.html#find_and_replace_colors) if you ever need to quickly modify many colors at a time.
 
 <img src="/img/palettization.png">
 
@@ -22,7 +25,7 @@ These colors are **RESERVED** to allow the avatar customization to work.
 | outfitA | #E5CCFF |
 | outfitB | #70618D |
 
-The palettization script searches for these reserved colors within the exported `.js` file. It then replaces these reserved colors with variables. When a participant selects a color for hair, eyes, skin or outfit, the corresponding variable adapts to the color that was selected.
+The publishing script searches for these reserved colors within the exported `.js` file. It then replaces these reserved colors with variables. When a participant selects a color for hair, eyes, skin or outfit, the corresponding variable adapts to the color that was selected.
 
 * These colors should be used to color the avatar.
 * These specific colors should not be used anywhere else.
