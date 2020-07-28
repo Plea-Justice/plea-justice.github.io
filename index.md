@@ -43,7 +43,7 @@ Both sequences lead up to the avatar being summoned to court and asked to either
 The simulation concludes by offering the user the option to either plead guilty and accept the plea offer or reject it. The option the user selects, alongside other variables scattered throughout the simulation, are then saved and passed as parameters into Qualtrics. Although it is separate from this software, the platform contains features to incorporate conditional logic in the survey flow based on variables expressed in the simulation (e.g. *guilt status*, plea offer *type*, sentencing *duration*).
 
 ### Installing
-{% include note.html content="The current implementation of the project has the source and asset files deployed onto a server, which allows those with server access to run the simulation without downloading any of the files. Instructions on how to set up a remote web server for this project will be coming soon." %}
+
 > **Note**: *The current implementation of the project has the source and asset files deployed onto a server, which allows those with server access to run the simulation without downloading any of the files. Instructions on how to set up a remote web server for this project will be coming soon.*
 
 To run the simulation on your own local machine, download the source code by cloning the GitHub repository through Command Line with,
