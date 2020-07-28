@@ -1,9 +1,11 @@
 ---
 layout: page
-title: Within Participants Studies
-permalink: /console/docs/script-for-within-participant
+title: Simulation versus Vignette Study
+permalink: /scripts/simulation-versus-vignette-study
 parent: Scripts
 ---
+# Within Participants Study
+
 <details><summary><b>Key/Legend</b></summary>
 
 To read these scripts and understand the meaning behind the formatting, here is a guide to how they are formatted.
@@ -20,7 +22,6 @@ To read these scripts and understand the meaning behind the formatting, here is 
 
 *Upon finishing customizing their avatar on the avatar customization screen and pressing the “Next” button, the user will be presented with a mix of one or both of the following simulations:*
 
-***
 
 ## **Simulation 1 - Hit & Run** ##
 

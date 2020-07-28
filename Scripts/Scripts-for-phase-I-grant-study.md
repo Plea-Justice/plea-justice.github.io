@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Grant Study
-permalink: /console/docs/script-for-phase-i-grant-study
+title: Shadow of the Trial Study
+permalink: /scripts/shadow-of-the-trial-study
 parent: Scripts
 ---
 ### Overview

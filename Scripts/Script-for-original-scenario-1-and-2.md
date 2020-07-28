@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Original Scenario 1 and 2
-permalink: /console/docs/script-for-original-scenario-1-and-2
+title: Original Pilot Studies
+permalink: /scripts/original-pilot-studies
 parent: Scripts
 ---
 ### Overview

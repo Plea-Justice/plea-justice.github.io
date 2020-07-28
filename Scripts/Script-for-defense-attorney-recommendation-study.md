@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Defense Attorney Recommendation
-permalink: /console/docs/script-for-defense-attorney-recommendation
+title: Defense Attorney Recommendation Study
+permalink: /scripts/defense-attorney-recommendation-study
 parent: Scripts
 ---
 ### Overview

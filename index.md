@@ -12,7 +12,7 @@ The Plea Justice Project offers a simulation of plea bargaining processes, which
 ***
 
 ## Examples
-If you want to take the simulation for a test run, [here is a link to a demo][simulation-demo]. The link will bring you to a landing page where you will be asked to give informed consent where there will be two text-entry fields. The first will ask you to enter your first name to be used in the simulation; the second will request a UML student email address (because the primary study for which the simulation was used recruited students from UMass Lowell). Entering the string “[any characters]@student.uml.edu” in this text-entry box will allow you to proceed.
+If you want to take the simulation for a test run, [here is a link to a demo][simulation-demo]. The link will bring you to a landing page on which you will be asked to provide informed consent by completing two text-entry fields. The first will ask you to enter your first name to be used in the simulation; the second will request a UML student email address (because the primary study for which the simulation was used recruited students from UMass Lowell). Entering the string “[any characters]@student.uml.edu” in this text-entry box will allow you to proceed.
 
 ### Features
 
@@ -22,7 +22,7 @@ If you want to take the simulation for a test run, [here is a link to a demo][si
 <img src="./img/avatar_creation.PNG" align="center" alt="menu showing customizable aspects of the avatar" width="75%">
 </p>
 
-Using this avatar creation interface, users are allowed to customize their own avatar to be used in the simulation with predefined assets. Controls are provided to select figure types, eye types, or hair styles, as well as selecting a color for the hair, eyes, skin, and shirt.
+Using the interface shown above, users are able to customize an avatar to represent them in the simulation. Controls are provided to select figure types, eye types, or hair styles, as well as selecting a color for the hair, eyes, skin, and shirt.
 
 **Animation & Dialogue**
 
@@ -32,7 +32,7 @@ The user is presented with one of two unique scenarios featuring the customized 
 
 | <img src="./img/judge.PNG" alt="judge reminding the reader their rights" width="100%"> | <img src="./img/district_attorney.PNG" alt="district attorney reminding the outcomes if pleading guilty" width="100%"> |
 
-Both sequences lead up to the avatar being summoned to court and asked to either accept a plea offer and plead guilty, or go to trial. The user navigates the simulation by clicking the “>>” button as it appears (when the dialogue has stopped); as the simulation progresses, they learn more about the incident surrounding their avatar (e.g., whether they are innocent or guilty of the crime to which they are accused).
+Both sequences lead up to the avatar being summoned to court and asked to either accept a plea offer and plead guilty, or reject the offer and go to trial. The user navigates the simulation by clicking the “>>” button as it appears (when the dialogue has stopped); as the simulation progresses, they learn more about the incident surrounding their avatar (e.g., whether they are innocent or guilty of the crime to which they are accused).
 
 **Modifiable Values & Recording Responses in Qualtrics**
 
@@ -43,6 +43,7 @@ Both sequences lead up to the avatar being summoned to court and asked to either
 The simulation concludes by offering the user the option to either plead guilty and accept the plea offer or reject it. The option the user selects, alongside other variables scattered throughout the simulation, are then saved and passed as parameters into Qualtrics. Although it is separate from this software, the platform contains features to incorporate conditional logic in the survey flow based on variables expressed in the simulation (e.g. *guilt status*, plea offer *type*, sentencing *duration*).
 
 ### Installing
+{% include note.html content="The current implementation of the project has the source and asset files deployed onto a server, which allows those with server access to run the simulation without downloading any of the files. Instructions on how to set up a remote web server for this project will be coming soon." %}
 > **Note**: *The current implementation of the project has the source and asset files deployed onto a server, which allows those with server access to run the simulation without downloading any of the files. Instructions on how to set up a remote web server for this project will be coming soon.*
 
 To run the simulation on your own local machine, download the source code by cloning the GitHub repository through Command Line with,

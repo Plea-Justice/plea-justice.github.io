@@ -6,8 +6,8 @@ nav_order: 2
 has_children: true
 ---
 
-The plea bargain simulation allows researchers to test participant's legal decisions through a computer simulation which offers enhanced participant immersion and ecological validity.
+This simulation allows researchers to examine participants' plea decision-making within virtual environments that provide enhanced participant immersion and increased ecological validity.
 
 You may view a demo of the simulation [here](http://demo.pleajustice.org).
 
-Below are links for the dialogue scripts that were used in different studies. These scripts contain the line-by-line descriptions of the scene as well as the character dialogue text that are rasterized onto the screen.
+Links for the scripts used in various simulation studies are available below. These scripts contain  line-by-line descriptions of each scene, as well as the character dialogue text.
