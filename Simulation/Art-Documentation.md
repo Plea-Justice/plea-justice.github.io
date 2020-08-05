@@ -51,29 +51,6 @@ Always name `.fla` files [Scenario Name]\_[Scene Name]. For example:
 * AllScenarios\_PhoneRoom.fla
 
 
-### Layer Names
-**Note: figure[Number] is the layer name for the avatar figure itself.**
-Any scene `.fla` file containing the avatar must have all of the following layers according to the conventions above.
-
-* figure0avatar
-* figure0hair0
-* figure0hair1
-* figure0hair2
-* figure0hair3 (Note: This is religious headwear)
-* figure0eyes0
-* figure0eyes1
-* figure0eyes2
-* figure1avatar
-* figure1hair0
-* figure1hair1
-* figure1hair2
-* figure0hair3 (Note: This is religious headwear)
-* figure1eyes0
-* figure1eyes1
-* figure1eyes2
-
-These layers may be organized into any folder organization you wish as long as the layers themselves have these names _exactly_ with no spaces.
-
 ### Example Workspace
 
 <img src="/img/file_names.png">
