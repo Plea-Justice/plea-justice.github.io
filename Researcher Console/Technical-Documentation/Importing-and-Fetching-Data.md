@@ -2,7 +2,7 @@
 layout: page
 title: Importing and Fetching Data
 permalink: /console/docs/importing-and-fetching-data
-parent: Documentation
+parent: Technical Documentation
 grand_parent: Researcher Console
 ---
 

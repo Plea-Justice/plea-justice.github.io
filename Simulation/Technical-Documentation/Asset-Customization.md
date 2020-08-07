@@ -2,7 +2,8 @@
 layout: page
 title: Asset Customization
 permalink: /simulation/docs/asset-customization
-parent: Simulation
+parent: Technical Documentation
+grand_parent: Simulation
 ---
 # Asset Customization
 

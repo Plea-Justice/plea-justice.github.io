@@ -2,7 +2,8 @@
 layout: page
 title: Art Documentation
 permalink: /simulation/docs/art-documentation
-parent: Simulation
+parent: Technical Documentation
+grand_parent: Simulation
 ---
 # Adobe Animate File Naming Conventions
 

@@ -2,7 +2,8 @@
 layout: page
 title: Software Architecture Layout
 permalink: /simulation/docs/software-architecture-layout
-parent: Simulation
+parent: Technical Documentation
+grand_parent: Simulation
 ---
 # **Plea Bargain Software High-Level Project Overview**
 

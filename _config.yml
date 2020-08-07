@@ -31,7 +31,7 @@ kramdown:
 search_enabled: true
 aux_links:
   "Live Demo":
-    - "//demo.pleajustice.org"
+    - "//demo2.pleajustice.org"
   "Researcher Console":
     - "//researcher.pleajustice.org"
   "Plea-Justice on GitHub":

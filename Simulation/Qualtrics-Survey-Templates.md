@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Qualtrics Survey Templates
-permalink: /simulation/docs/qualtrics-survey-templates
+permalink: /simulation/qualtrics-survey-templates
+nav_order: 1
 parent: Simulation
 ---
 # Different Template Types

@@ -2,7 +2,8 @@
 layout: page
 title: Testing And Debugging
 permalink: /simulation/docs/testing-and-debugging
-parent: Simulation
+parent: Technical Documentation
+grand_parent: Simulation
 ---
 # Testing Debugging #
 
