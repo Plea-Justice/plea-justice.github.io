@@ -8,7 +8,7 @@ parent: Scripts
 
 This page contains the script dialogue of scenario 1, the hit-and-run scenario, and the script dialogue of scenario 2, the theft scenario. Users would start from the beginning of either scenario 1 or 2 once they finish creating their avatar from the avatar customization page.
 
-To jump to scenario 2, click [here](https://github.com/Plea-Justice/pleabargain-simulation/wiki/Script-for-original-scenario-1-and-2/#simulation-2---theft-scenario). Though this version of the script may contain out-dated elements, such as using `PROSECUTOR` instead of `DEFENSE ATTORNEY` in the final scene, most of the script is still up-to-date and other researchers may draw upon from it to make modifications to their own versions.
+To jump to scenario 2, click [here](#simulation-2---theft-scenario). Though this version of the script may contain out-dated elements, such as using `PROSECUTOR` instead of `DEFENSE ATTORNEY` in the final scene, most of the script is still up-to-date and other researchers may draw upon from it to make modifications to their own versions.
 
 <details><summary><b><p style="font-size:18px"><u>> Key/Legend</u></p></b></summary>
 
