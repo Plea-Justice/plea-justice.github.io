@@ -2,7 +2,7 @@
 layout: page
 title: VueX
 permalink: /console/docs/vuex
-parent: Documentation
+parent: Technical Documentation
 grand_parent: Researcher Console
 ---
 

@@ -1,10 +1,14 @@
 ---
 layout: page
-title: Configuration
-permalink: /simulation/docs/configuration
+title: Manual Configuration
+permalink: /simulation/configuration
+nav_order: 4
 parent: Simulation
 ---
-_This document is for a new version currently in progress and may not be helpful for older versions._
+_This document explains how to manually configure the simulation._
+
+_Manual configuration is not necessary if you are using the [Researcher Console](/console)._
+
 # Configuring the Simulation
 This page explains how to customize the plea bargain simulation to the needs of a particular experiment.
 
