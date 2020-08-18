@@ -21,7 +21,7 @@ These colors are **reserved** to allow the color customization of the avatar and
 
 Copy and paste the color codes exactly as they are below. The eyedropper tool does not accurately find the exact color code.
 
-#### Slot 1 Avatar Reserved Colors
+#### Slot 1 - Avatar Reserved Colors
 
 Use these colors only on the avatar figure, hair, and eye layers. These colors are __always__ reserved for the avatar only.
 
@@ -34,38 +34,35 @@ Use these colors only on the avatar figure, hair, and eye layers. These colors a
 | Outfit | #E5CCFF |
 | Outfit Shadow | #70618D |
 
-#### Prosecutor Reserved Colors
+#### Slot 2 - Judge Reserved Colors
 
-Use these colors only on the layers of the prosecutor actor.
-
-| Feature | Color Code |
-| --- | --- |
-| Eye | #------ |
-| Hair | #------ |
-| Skin | #------ |
-| Skin Shadow | #------ |
-
-#### Defense Attorney Reserved Colors
-
-Use these colors only on the layers of the defense attorney actor.
+Use these colors only on the layers of the judge actor. If you are not using the judge, you may use this color slot for a new customizable character.
 
 | Feature | Color Code |
 | --- | --- |
-| Eye | #------ |
-| Hair | #------ |
-| Skin | #------ |
-| Skin Shadow | #------ |
+| Hair | #999999 |
+| Skin | #FFF9CE |
+| Skin Shadow | #FFC889 |
 
-#### Judge Reserved Colors
+#### Slot 3 - Defense Attorney Reserved Colors
 
-Use these colors only on the layers of the judge actor.
+Use these colors only on the layers of the defense attorney actor. If you are not using the defense attorney, you may use this color slot for a new customizable character.
 
 | Feature | Color Code |
 | --- | --- |
-| Eye | #------ |
-| Hair | #------ |
-| Skin | #------ |
-| Skin Shadow | #------ |
+| Hair | #5B3607 |
+| Skin | #F3D0A5 |
+| Skin Shadow | #F3C18D |
+
+#### Slot 4 - Prosecutor Reserved Colors
+
+Use these colors only on the layers of the prosecutor actor. If you are not using the prosecutor, you may use this color slot for a new customizable character.
+
+| Feature | Color Code |
+| --- | --- |
+| Hair | #666666 |
+| Skin | #FFC9A5 |
+| Skin Shadow | #FFBB91 |
 
  Animate supports [find and replace for colors](https://helpx.adobe.com/au/animate/using/find-replace.html#find_and_replace_colors) if you ever need to quickly modify many colors at a time.
 
