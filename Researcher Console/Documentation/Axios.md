@@ -6,13 +6,19 @@ parent: Documentation
 grand_parent: Researcher Console
 ---
 
+### Sections
+
+- [Usage](#Usage)
+- [Environments: Deploying & Production](#Setting-up-Axios-for-Deploy)
+- [Error Handling](#Error-Handling)
+
 ## Usage
 
 The internal `@nuxtjs/axios` package should be used.
 
-Do **NOT** use `import axios from "axios"` this will work since `axios` is a sub dependency of `@nuxtjs/axios` however is incorrect.
+Do **NOT** `import axios from "axios"` this will work since `axios` is a sub dependency of `@nuxtjs/axios` however is incorrect.
 
-Using the internal `@nuxtjs/axios` package doesn't require any imports and uses a special `$` prefix to identify itself and any of it's chained methods. For instance if you want to call `axios.get()` You would do `$axios.$get()`
+Using the internal `@nuxtjs/axios` package doesn't require any imports and uses a special `$` prefix to identify itself and any of it's chained methods. For instance if you want to call `axios.get()` You would do `$axios.$get()`, more on this [here.](https://axios.nuxtjs.org/usage.html#store-actions)
 
 The best and most expressive way to access axios from this package is by passing it as an argument inside curly braces to the components constructor, e.g. `thisIsAFunction ({ $axios }) { yourCodeHere }`.
 
@@ -82,8 +88,14 @@ export default {
 
 ```
 
-Described Method: (Simpler, not quite as broad)
+Described Method (Simpler, not quite as broad):
 [Resource on using Axios baseURL option](https://github.com/nuxt-community/axios-module/issues/134)
 
-Alternative: (More complicated, uses global environment)
+Alternative (More complicated, uses global environment):
 [Resource on using Axios plugin & env global](https://medium.com/from-zero-to-hero-of-free-web-development/vue-js-and-nuxt-js-quickstart-tutorial-part-3-c445c1a063ef)
+
+## Error Handling
+
+The vast majority of the research console relies on [axios error interceptors](https://axios.nuxtjs.org/helpers.html#interceptors), as most errors have the same outcome and this helps to prevent duplicate and/or poorly scoped code.
+
+this file can be found under `~/client/plugins/axios.js`
