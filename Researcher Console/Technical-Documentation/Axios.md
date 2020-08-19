@@ -2,7 +2,7 @@
 layout: page
 title: Axios
 permalink: /console/docs/axios
-parent: Documentation
+parent: Technical Documentation
 grand_parent: Researcher Console
 ---
 
