@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Axios
+title: Using Axios in Nuxt
 permalink: /console/docs/axios
 parent: Technical Documentation
 grand_parent: Researcher Console

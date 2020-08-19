@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Importing and Fetching Data
-permalink: /console/docs/importing-and-fetching-data
+title: Using Static Data & Assets
+permalink: /console/docs/using-static-data-assets
 parent: Technical Documentation
 grand_parent: Researcher Console
 ---

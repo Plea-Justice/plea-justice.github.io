@@ -1,3 +1,11 @@
+---
+layout: page
+title: Our VueX Structure
+permalink: /console/docs/our-vuex-structure
+parent: Technical Documentation
+grand_parent: Researcher Console
+---
+
 ### scenes.js
 
 Manages the state of the layout from frames to scenes, any modification to those objects, and the exposes the default form information provided in each scene (but does not manage the form.)
