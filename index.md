@@ -60,7 +60,7 @@ or download and extract the zip file on the desktop site. Once the files are on 
 ## Contribution
 Interested in contributing to the development of this project or collaborating on related research? You can [contact the Principal Investigator here][contact-PI] if you have any questions, comments, concerns or inquiries regarding the project or the related research.
 
-Before contributing to the software, take a look at [how the project is made][Software-Architecture-Layout] or the [source code][github-page] and see if there is an area in need of improvements.
+Before contributing to the software, take a look at [how the project is made][/simulation/docs/software-architecture-layout] or the [source code][github-page] and see if there is an area in need of improvements.
 
 ### License
 This project is licensed using [GNU GPLv3][licensing].
@@ -72,15 +72,15 @@ This project is licensed using [GNU GPLv3][licensing].
 * 02/26/2019 - [Why Do Innocent People Plead Guilty?][article-2]: UMass Lowell Researcher Wins NSF Grant to Find Answers
 
 <!--- below are 1. comments that address long-term changes that need to be made to this page and 2. reference variables that represent external links -->
+
 ["Installing; Note: The current implementation"]: <> (be sure to update the method for implementing it on a remote server)
 ["Recording responses in Qualtrics"]: <> (add a link documentation on data cleaner)
-["Licensing implementation"]: <> (will need to look into implementation on licensing; an "About" page)
+["Licensing implementation"]: <> (will need to look into implementation on licensing; an About page)
 
 [simulation-demo]: https://umasslowell.co1.qualtrics.com/jfe/form/SV_25DlciTSNf0F5nn
 [python]: https://www.python.org/
 [http-server]: https://www.npmjs.com/package/http-server
 [contact-PI]: https://mikowilford.wixsite.com/website-1
-[Software-Architecture-Layout]: https://github.com/Plea-Justice/pleabargain-simulation/wiki/Software-Architecture-Layout
 [github-page]: https://github.com/Plea-Justice/pleabargain-simulation
 [licensing]: https://github.com/Plea-Justice/pleabargain-simulation/blob/master/LICENSE.txt
 [article-1]: https://www.uml.edu/news/stories/2018/pleabargains.aspx
