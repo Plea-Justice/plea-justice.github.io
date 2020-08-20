@@ -13,7 +13,7 @@ Here are the [Brief Instructions](#brief-directions-to-run-cleaner-on-pleabargai
 
 The data cleaner is a program, also known as a *script*, written to parse through CSV files exported from Qualtrics surveys that are directly associated to the *plea bargain simulation software*.
 
-The survey flow can be broken up to multiple parts such that Qualtrics can redirect the participant to the animation, and the animation can redirect the participant back to Qualtrics. Because of this, the survey data for a particular participant is broken up into multiple parts. The data cleaner is for experiments that require a redirect from Qualtrics, to the simulation, and back to Qualtrics again. The figure shown below is an example of what the design of an experiment flow may look like.
+The survey flow can be broken up to multiple parts such that Qualtrics can redirect the participant to the animation, and the animation can redirect the participant back to Qualtrics. Because of this, the survey data for a particular participant is broken up into multiple parts. The data cleaner is for experiments that require a redirect from Qualtrics, to the simulation, and back to Qualtrics again. The figure shown below is an example of what a generic design of an experiment flow may look like:
 
 <p align="center">
     <img src="/img/data_cleaner1.png" align="center" alt="diagram of the experiment flow. Qualtrics entities are highlighted as blue">
