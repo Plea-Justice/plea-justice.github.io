@@ -80,18 +80,21 @@ The following is a list of the currently existing avatar layers.
 * `figure0hair0`
 * `figure0hair1`
 * `figure0hair2`
-* `figure0hair3` (Note: This is religious headwear)
+* `figure0hair3` (Religious headwear)
 * `figure0eyes0`
 * `figure0eyes1`
 * `figure0eyes2`
-* `figure1avatar`
+* `figure0accessory0` (Larceny FlashbackGuilty Glasses)
+
+* `figure1base`
 * `figure1hair0`
 * `figure1hair1`
 * `figure1hair2`
-* `figure0hair3` (Note: This is religious headwear)
+* `figure0hair3` (Religious headwear)
 * `figure1eyes0`
 * `figure1eyes1`
 * `figure1eyes2`
+* `figure1accessory0` (Larceny FlashbackGuilty Glasses)
 
 The other actors only implement figure customization and so currently only contain the figure base layers.
 
