@@ -16,7 +16,7 @@ The server's API endpoints are defined under `server/routes/api_v1/`. The files 
 |auth.js| Handles user authentication and registration. |
 |scenario.js| Handles scenario save and management. |
 |assets.js| Handles asset uploads and management. |
-|zip.js| Handles [simulation generation](/console/docs/sim-interop) and packaging. |
+|sim-generate.js| Handles [simulation generation](/console/docs/sim-interop) and packaging. |
 |admin.js| Handles administrator-only operations. |
 
 ## Authentication
@@ -72,7 +72,7 @@ This is handled in its own [article](/console/docs/sim-interop).
 
 Relevant Files:
 
-- `server/routes/api_v1/zip.js`
+- `server/routes/api_v1/sim-generate.js`
 - `server/common/publish.js`
 
 ## Administration
