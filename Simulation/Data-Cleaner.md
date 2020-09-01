@@ -16,7 +16,7 @@ The data cleaner is a program, also known as a *script*, written to parse throug
 The survey flow can be broken up to multiple parts such that Qualtrics can redirect the participant to the animation, and the animation can redirect the participant back to Qualtrics. Because of this, the survey data for a particular participant is broken up into multiple parts. The data cleaner is for experiments that require a redirect from Qualtrics, to the simulation, and back to Qualtrics again. The figure shown below is an example of what a generic design of an experiment flow may look like:
 
 <p align="center">
-    <img src="/img/data_cleaner1.png" align="center" alt="diagram of the experiment flow. Qualtrics entities are highlighted as blue">
+    <img src="/img/data_cleaner/data_cleaner1.png" align="center" alt="diagram of the experiment flow. Qualtrics entities are highlighted as blue">
     <caption style="caption-side:bottom">The participant is redirected to each stage of the experiment as they complete the tasks of each element. Highlighted in blue are where Qualtrics response are recorded. For this example, two rows would be created since the experiment redirects to Qualtrics twice.</caption>
 </p>
 
@@ -76,7 +76,7 @@ The program The script will attempt to clean exported .csv files generated from 
 3.  Find an entry or similar to “open with” or “edit with”.
 4.  Find the respective application you would like to open with. Notepad, Text Editor suffices. Atom, and sublime text can be used as well, as they have keyword highlighting.
     <p align="center">
-        <img src="/img/data_cleaner2.png" align="center" alt="written declarations of variables in the program">
+        <img src="/img/data_cleaner/data_cleaner2.png" align="center" alt="written declarations of variables in the program">
     </p>
 5.  With an example shown above, modify the variables such that they are accurate to the desired input/output as well as the properties of the experiment described in Materials: Properties.
 6.  Once the edits have been made to the 3 variables, save the file and exit.  
@@ -111,7 +111,7 @@ Once you have the file and configured the file accordingly. Follow these steps t
 
 Make sure you have python version 3.8.1 (this was the version the script was written in. Be wary other versions may not support some features). Here is how to check what version of python you have:
 
-1.  Open Terminal (Linux, Mac) or Command Line (Windows) <img src="/img/data_cleaner3.png" align="right" alt="checking the version of Python installed">
+1.  Open Terminal (Linux, Mac) or Command Line (Windows) <img src="/img/data_cleaner/data_cleaner3.png" align="right" alt="checking the version of Python installed">
 2.  Type: `python --version`
 3.  [Download python if you find that you don’t have version 3 of python here](download-python). Click the link, find the Download Python button, scroll down to Files, and download the respective version to your operating system.
     * [This link contains information on configuring the Environment Variable on Windows and other configuration details](environment-variable).
