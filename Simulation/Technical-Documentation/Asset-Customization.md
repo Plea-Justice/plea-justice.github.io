@@ -13,120 +13,60 @@ Internally, this is accomplished with modifications to the JavaScript exported b
 
 ## Reserved Color Palettes
 
-These colors are **reserved** to allow the color customization of the avatar and actors. They will be replaced automatically by the simulation at the participant or researcher's selection.
+These colors are **reserved** to allow the color customization of the avatar and actors. They will be replaced automatically by the simulation at the participant or researcher's selection. Colors are organized into slots, a number associated with the actor, to allow new customizable actors to be added in the future.
 
 **Do not use these colors anywhere other than in the assets they are associated with.**
 
 <img src="/img/palettization.png">
 
-Copy and paste the color codes exactly as they are below. The eyedropper tool does not accurately find the exact color code.
+Copy and paste the color codes exactly as they are below. The eyedropper tool does not accurately find the exact color code. Animate supports [find and replace for colors](https://helpx.adobe.com/au/animate/using/find-replace.html#find_and_replace_colors) if you ever need to quickly modify many colors at a time.
 
-#### Slot 1 - Avatar Reserved Colors
+ _Search for each of these colors in each file before you filling to ensure they aren’t already used somewhere._
 
-Use these colors only on the avatar figure, hair, and eye layers. These colors are __always__ reserved for the avatar only.
+||Avatar|Judge|Defense Att.|Prosecutor||
+|-|:-:|:-:|:-:|:-:|-|
+|_Slot #_|_0_|_1_|_2_|_3_||
+|Skin|`#ACAC30`|`#ACAC31`|`#ACAC32`|`#ACAC33`|_Yellow_|
+|Skin Dark|`#AC9C30`|`#AC9C31`|`#AC9C32`|`#AC9C33`||
+|Hair|`#AC3C30`|`#AC3C31`|`#AC3C32`|`#AC3C33`|_Red_|
+|Eye|`#3C3CA0`|`#3C3CA1`|`#3C3CA2`|`#3C3CA3`|_Blue_|
+|Outfit|`#AC3CA0`|`#AC3CA1`|`#AC3CA2`|`#AC3CA3`|_Purple_|
+|Outfit Dark|`#AC2CA0`|`#AC2CA1`|`#AC2CA2`|`#AC2CA3`||
+|Unused|`#3CAC30`|`#3CAC31`|`#3CAC32`|`#3CAC33`|_Green_|
+|Unused|`#3CACA0`|`#3CACA1`|`#3CACA2`|`#3CACA3`|_Teal_|
 
-| Feature | Color Code |
-| --- | --- |
-| Eye | #666600 |
-| Hair | #663300 |
-| Skin | #FFCC99 |
-| Skin Shadow | #F49E50 |
-| Outfit | #E5CCFF |
-| Outfit Shadow | #70618D |
-
-#### Slot 2 - Judge Reserved Colors
-
-Use these colors only on the layers of the judge actor. If you are not using the judge, you may use this color slot for a new customizable character.
-
-| Feature | Color Code |
-| --- | --- |
-| Hair | #999999 |
-| Skin | #FFF9CE |
-| Skin Shadow | #FFC889 |
-
-#### Slot 3 - Defense Attorney Reserved Colors
-
-Use these colors only on the layers of the defense attorney actor. If you are not using the defense attorney, you may use this color slot for a new customizable character.
-
-| Feature | Color Code |
-| --- | --- |
-| Hair | #5B3607 |
-| Skin | #F3D0A5 |
-| Skin Shadow | #F3C18D |
-
-#### Slot 4 - Prosecutor Reserved Colors
-
-Use these colors only on the layers of the prosecutor actor. If you are not using the prosecutor, you may use this color slot for a new customizable character.
-
-| Feature | Color Code |
-| --- | --- |
-| Hair | #666666 |
-| Skin | #FFC9A5 |
-| Skin Shadow | #FFBB91 |
-
- Animate supports [find and replace for colors](https://helpx.adobe.com/au/animate/using/find-replace.html#find_and_replace_colors) if you ever need to quickly modify many colors at a time.
-
-## Asset Feature Layers
+## Asset Layer Names
 
 The avatar and actors are composed of multiple layers, __all of which must be enabled when exporting from Animate__. They will later be automatically toggled on or off depending on the participant and/or researcher's selection. These layers must also follow a strict naming convention.
 
-The base layer of each avatar or actor is the `figure`. This is the body shape of the character. The simulation currently supports two figures, a stereotypical male and a stereotypical female shape. Figure layers must be named with the figure number and the actor they are applicable to. For example: `figure0base` or `figure1base`.
+Firstly, actors are referenced with numbers called 'slots'. All actor layers must be prefixed with `slot` followed by their number. For example, the avatar is number 0, so all the avatar's layers begin with `slot0` like `slot0figure1base`.
 
-Several feature layers are overlayed on each of the figure layers. These include options for hair style and eye shape. These layers must be named with the figure they are applicable to. For example `figure0hair0` or `figure1eyes2`.
+The base layer of each avatar or actor is the `figure`. This is the body shape of the character. The simulation currently supports two figures, a stereotypical male and a stereotypical female shape. Base layers must be named with the figure number and the actor they are applicable to. For example, `slot1figure0base` and `slot1figure1base` are the two figure options available for the judge asset.
 
-The following is a list of the currently existing avatar layers.
+Several feature layers may be overlayed on the figure layers. These include options for hair style and eye shape. These layers must be named with the figure they are applicable to. For example, `slot0figure0hair0` or `slot0figure1eyes2` are the first hairstyle of the masculine avatar and the third eye shape available for the feminine avatar respectively.
 
-* `figure0base`
-* `figure0hair0`
-* `figure0hair1`
-* `figure0hair2`
-* `figure0hair3` (Note: This is religious headwear)
-* `figure0eyes0`
-* `figure0eyes1`
-* `figure0eyes2`
-* `figure1avatar`
-* `figure1hair0`
-* `figure1hair1`
-* `figure1hair2`
-* `figure0hair3` (Note: This is religious headwear)
-* `figure1eyes0`
-* `figure1eyes1`
-* `figure1eyes2`
+The table below lists layers which currently exist.
 
-The other actors only implement figure customization and so currently only contain the figure base layers.
-
-* `figure0base`
-* `figure1base`
+|Avatar|Judge|Defense Att.|Prosecutor|
+|-|-|-|-|
+|_Slot 0_|_Slot 1_|_Slot 2_|_Slot 3_|
+|`slot0figure0base`|`slot1figure0base`|`slot2figure0base`|`slot3figure0base`|
+|`slot0figure0hair0`||||
+|`slot0figure0hair1`||||
+|`slot0figure0hair2`||||
+|`slot0figure0hair3`||||
+|`slot0figure0eyes0`||||
+|`slot0figure0eyes1`||||
+|`slot0figure0eyes2`||||
+|`slot0figure0accessory0`||||
+|`slot0figure1base`|`slot1figure1base`|`slot2figure1base`|`slot3figure1base`|
+|`slot0figure1hair0`||||
+|`slot0figure1hair1`||||
+|`slot0figure1hair2`||||
+|`slot0figure1hair3`||||
+|`slot0figure1eyes0`||||
+|`slot0figure1eyes1`||||
+|`slot0figure1eyes2`||||
+|`slot0figure1accessory0`||||
 
 These layers may be organized into any desired folder organization as long as the layers themselves have these names _exactly_, without spaces or capitalization.
-
-## Publishing Script
-
-As of July 20, 2020, the publishing script works with Adobe Animate 20.0.5.
-
-The publishing script is a small computer program written in JavaScript which modifies the `.js` files exported by Adobe Animate such that they may be added to the simulation. Before running the script, make sure Animate layers follow the required [naming convention](/simulation/docs/art-documentation) as well as the above color palette rules.
-
-To run the publishing script you will need [Node.js](https://nodejs.org/en/) installed. The script may be found at [`src/modules/assets/publishing-scripts/publish.py`](https://github.com/Plea-Justice/simulation-assets/blob/master/publish.js). Run the publishing script in a terminal (command-line) with the following.
-
-```
-node publish.js [options] [filename]
-```
-
-Example:
-
-```
-node publish.js AllScenarios_Jail.js
-```
-
-In this case, `AllScenarios_Jail.fla` has been exported from Adobe Animate as `AllScenarios_Jail.js` this file has then been moved to the same directory as the publishing script. The publishing script has now been run, and we may now use `AllScenarios_Jail.js` as a scene in the simulation.
-
-### Technical Details
-
-Adobe Animate exports `.fla` animations as JavaScript objects that may be rendered in a browser with the [CreateJs](https://createjs.com/) library. The `.js` output of Animate requires modifications before it can be used with the simulation.
-
-The publishing script does several things:
-
-* Replaces the reserved palette colors to JavaScript variable names so they can be set dynamically based on the participants' avatar customizations.
-* Prepends `if` statements to avatar feature layers (eyes, hair), allowing them to be similarly toggled on and off with variables.
-* Prepends `if` statements to all avatar layers associated with a figure to allow toggling between body shapes.
-* Prepends `// Published.` to the file and checks for this line before running to ensure the script is never accidentally run more than once.

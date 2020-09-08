@@ -1,13 +1,11 @@
 ---
 layout: page
 title: Manual Configuration
-permalink: /simulation/configuration
+permalink: /simulation/docs/configuration
 nav_order: 4
 parent: Simulation
 ---
-_This document explains how to manually configure the simulation._
-
-_Manual configuration is not necessary if you are using the [Researcher Console](/console)._
+_Configuration of the simulation is [performed automatically](/console/docs/sim-interop) by the researcher console._
 
 # Configuring the Simulation
 This page explains how to customize the plea bargain simulation to the needs of a particular experiment.
@@ -27,14 +25,7 @@ For this tutorial:
 * **A text editor**
 > _The Notepad app on any Windows computer is all you need, however an advanced text editor like [Visual Studio Code](https://code.visualstudio.com/) or [Notepad++](https://notepad-plus-plus.org/) is highly recommended._
 
-For creating new animations from scratch or editing existing:
-* Adobe Animate (Part of Adobe Creative Cloud)
-> _This is only if you want to add completely new scenes to the simulation. Existing scenes can be rearranged and the scripts may be changed without this software._
 
-To run the simulation on your own:
-* A web server
-* A domain name
-> _The simulation may also be run off of the project's existing server._
 
 ***
 ## Downloading the Simulation Software
