@@ -1,28 +1,28 @@
 ---
 layout: page
 title: A VueX Overview
-permalink: /console/docs/a-vuex-overview
+permalink: /console/docs/vuex-overview
 parent: Technical Documentation
 grand_parent: Researcher Console
 ---
 
 # About VueX and Our Styling & Implementation
 
-Here you will gain some general awareness of VueX, though mostly be provided to the official resources we (the designers) used as well as learning about our VueX style guide and design/implementation choices.
+Here you will gain some general awareness of VueX, though mostly be provided to the official resources we (the designers) used in addition to learning about our VueX style guide and design/implementation choices.
 
 We are using [VueX Modules mode](https://vuex.vuejs.org/guide/modules.html) branching off of `client/stores/index.js` per the default [Nuxt Modules](https://nuxtjs.org/guide/vuex-store/) configuration.
 
 ### Sections
 
-- [Styling](#Styling)
-- [Reactivity Fundamentals](#Reactivity-Fundamentals)
-- [Implementation](#Implementation-Flux-Design-Pattern)
-- [Why Flux](#Why-Flux?)
-- [Whats Next](#Whats-Next?)
+- [Styling](#styling)
+- [Reactivity Fundamentals](#reactivity-fundamentals)
+- [Implementation](#implementation-flux-design-pattern)
+- [Why Flux](#why-flux?)
+- [Whats Next](#whats-next?)
 
 ## Styling
 
-**Make sure to also read [Implementation](#Implementation)**
+**Make sure to also read [Implementation](#implementation)**
 
 ### State
 
@@ -33,6 +33,15 @@ We are using [VueX Modules mode](https://vuex.vuejs.org/guide/modules.html) bran
 Getters are named arrow functions.
 
 `myGetter: state => state.thingIwantToReturn`
+
+One important style decision for getters is that when data must be derived from the store for some component it is almost always best to either
+
+1. Take the getter as-is into the component and use a computed property to do the derivation based on the getter
+2. If you're using this derivation everywhere make the getter the derivation
+
+In other words while you might feel this would pollute a component with additional code that can be abstracted away in a getter a you generally end up much cleaner if you don't have lingering getters for every edge case.
+
+This advice is also useful for mutations where actions instead should do most of the work so the mutations are as simple as possible to track down erroneous edits or reactivity issues with state data should it occur.
 
 [For more on Getters](https://vuex.vuejs.org/guide/getters.html)
 
