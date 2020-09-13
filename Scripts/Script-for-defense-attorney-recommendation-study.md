@@ -5,7 +5,7 @@ permalink: /scripts/defense-attorney-recommendation-study
 nav_order: 4
 parent: Scripts
 ---
-### Overview
+# Defense Attorney Recommendation Study
 
 Below is the script dialogue of the defense recommendation study. One of the main differences of this script and the original is that only scenario 2, the theft scenario, is used. The elements that were variables in the original script, such as plea offer type and maximum sentencing duration, are controlled and are static in this one. Another difference is that the `DEFENSE ATTORNEY` will give advice at the end of the simulation, and the advice will contain a recommendation of whether or not to take the plea bargain offer.
 
