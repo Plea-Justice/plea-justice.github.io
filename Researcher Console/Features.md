@@ -23,7 +23,7 @@ Upon creating an account and logging in, the user of the researcher console is d
 
 ### Navigation Pane and Scenario Selection Page
 
-[![a numbered image of the researcher console's scenario page](/img/console/numbered_scenario.PNG)](/img/console/numbered_scenario.PNG)
+[![a numbered image of the researcher console's scenario page](/img/console/numbered_scenario.png)](/img/console/numbered_scenario.png)
 
 1.  The top, shaded row is the navigation pane shown on all Researcher Console pages. The left side is used to swap between the [Assets](#assets-page) and [Scenarios](#scenario-navigation-bar) pages.
 2.  The right side of the row contains buttons to access the <u>admin console</u> (internal use only), <u>logging out</u>, and the <b><u>help menu</u></b>. The help menu shows additional information on the current view the user is on.
@@ -38,7 +38,7 @@ Assets used for the simulation can be managed on this page. Users will likely ha
 
 <!--- insert chart for existing assets and clips --->
 
-[![a numbered image of the researcher console's assets page](/img/console/numbered_assets.PNG)](/img/console/numbered_assets.PNG)
+[![a numbered image of the researcher console's assets page](/img/console/numbered_assets.png)](/img/console/numbered_assets.png)
 
 1.  An <u>Add</u> button is highlighted green at the top of the page for users to upload their own assets, apart from the ones that are preloaded.
 2.  The <u>Filter Asset Type</u> feature shows only assets of a particular type. Users would select a type of asset from the dropdown menu on the top-right of the screen and assets of the selected type would populate the screen.
@@ -51,7 +51,7 @@ Assets used for the simulation can be managed on this page. Users will likely ha
 
 When editing a Scenario, the features on the toolbar floating on the top of the row can be used to modify the Scenario, conditions, [scenes](#scenario-workspace), and other configuration options. The name of the project "`sandbox`" is located in the top right of the image, shown in the example below.
 
-[![a numbered image of the researcher console's Scenario nav bar](/img/console/numbered_nav.PNG)](/img/console/numbered_nav.PNG)
+[![a numbered image of the researcher console's Scenario nav bar](/img/console/numbered_nav.png)](/img/console/numbered_nav.png)
 
 1.  This area contains features that are in regards to the properties of the overall project.
     1.  The <u>scene count</u> shows the total number of scenes.
@@ -79,7 +79,7 @@ When editing a scenario, the user is given a workspace to modify conditions (rep
 
 1.  The top row shows all conditions of the scenario, where users can <u>Delete conditions</u> and <u>Add & Remove Tags</u> that are relevant to each particular conditions.
 2.  This is the <u>Scene Frame Name</u> and <u>Unique Scene Count</u>. In this example:
-[![a numbered image of the researcher console's frame](/img/console/numbered_frame.PNG)](/img/console/numbered_frame.PNG){: style="float: right"}
+[![a numbered image of the researcher console's frame](/img/console/numbered_frame.png)](/img/console/numbered_frame.png){: style="float: right"}
     1. `Courtroom1` is the name of the scene frame (the particular row).
     2. There are `2` unique scenes indicated within this row (only one scene is shown in the example).
 3.  This is the <u>Scene Frame Count</u>, where the example indicates this is the first scene frame.
