@@ -23,7 +23,9 @@ Upon creating an account and logging in, the user of the researcher console is d
 
 ### Navigation Pane and Scenario Selection Page
 
+{:refdef: style="text-align: center;"}
 [![a numbered image of the researcher console's scenario page](/img/console/numbered_scenario.png)](/img/console/numbered_scenario.png)
+{:refdef}
 
 1.  The top, shaded row is the navigation pane shown on all Researcher Console pages. The left side is used to swap between the [Assets](#assets-page) and [Scenarios](#scenario-navigation-bar) pages.
 2.  The right side of the row contains buttons to access the <u>admin console</u> (internal use only), <u>logging out</u>, and the <b><u>help menu</u></b>. The help menu shows additional information on the current view the user is on.
@@ -37,8 +39,9 @@ Upon creating an account and logging in, the user of the researcher console is d
 Assets used for the simulation can be managed on this page. Users will likely have access to all assets featured in the original Pleajustice pilot studies, but will also have the option to upload their own customized assets.
 
 <!--- insert chart for existing assets and clips --->
-
+{:refdef: style="text-align: center;"}
 [![a numbered image of the researcher console's assets page](/img/console/numbered_assets.png)](/img/console/numbered_assets.png)
+{:refdef}
 
 1.  An <u>Add</u> button is highlighted green at the top of the page for users to upload their own assets, apart from the ones that are preloaded.
 2.  The <u>Filter Asset Type</u> feature shows only assets of a particular type. Users would select a type of asset from the dropdown menu on the top-right of the screen and assets of the selected type would populate the screen.
@@ -51,7 +54,9 @@ Assets used for the simulation can be managed on this page. Users will likely ha
 
 When editing a Scenario, the features on the toolbar floating on the top of the row can be used to modify the Scenario, conditions, [scenes](#scenario-workspace), and other configuration options. The name of the project "`sandbox`" is located in the top right of the image, shown in the example below.
 
+{:refdef: style="text-align: center;"}
 [![a numbered image of the researcher console's Scenario nav bar](/img/console/numbered_nav.png)](/img/console/numbered_nav.png)
+{:refdef}
 
 1.  This area contains features that are in regards to the properties of the overall project.
     1.  The <u>scene count</u> shows the total number of scenes.
