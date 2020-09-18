@@ -8,7 +8,7 @@ parent: Researcher Console
 
 # Features
 
-The main features and pages of the Researcher Console are shown here as numbered example images and a corresponding description.
+The main features and pages of the Researcher Console are shown here as numbered example images and corresponding descriptions. You can use these anchor links below to jump to a particular element of the Researcher Console.
 
 Jump to:
 * [Navigation Pane and Scenario Selection Page](#navigation-pane-and-scenario-selection-page)
@@ -19,9 +19,9 @@ Jump to:
 
 ***
 
-Upon creating an account and logging in, the user of the researcher console is directed to this `Scenario selection page` shown below, where they can manage different Pleajustice simulation projects.
-
 ### Navigation Pane and Scenario Selection Page
+
+Upon creating an account and logging in, the user of the researcher console is directed to this `Scenario selection page` shown below, where they can manage different Pleajustice simulation projects.
 
 {:refdef: style="text-align: center;"}
 [![a numbered image of the researcher console's scenario page](/img/console/numbered_scenario.png)](/img/console/numbered_scenario.png)
