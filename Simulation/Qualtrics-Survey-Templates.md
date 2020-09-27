@@ -32,3 +32,12 @@ The survey flow is somewhat unintuitive. However, groups have been added through
 >Here, the block is randomizing a number between 1 and 3.
 
 <img src="/img/survey3.png" align="center" alt="Experimental Condition Generator">
+
+### Updating the Simulation URL
+>Researchers must replace the highlighted text with the domain that is hosting the simulation.<br>
+
+<img src="/img/survey4.png" align="center" alt="Simulation URL Pre-Edit">
+
+>Here is an example where the simulation is hosted at *live.pleajustice.org/study1*
+
+<img src="/img/survey5.png" align="center" alt="Simulation URL Post-Edit">

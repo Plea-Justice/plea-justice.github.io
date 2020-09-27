@@ -2,6 +2,7 @@
 layout: page
 title: Simulation versus Vignette Study
 permalink: /scripts/simulation-versus-vignette-study
+nav_order: 3
 parent: Scripts
 ---
 # Simulation Versus Vignette Study

@@ -12,7 +12,9 @@ The Plea Justice Project offers a simulation of plea bargaining processes, which
 ***
 
 ## Examples
-If you want to take the simulation for a test run, [here is a link to a demo][simulation-demo]. The link will bring you to a landing page on which you will be asked to provide informed consent by completing two text-entry fields. The first will ask you to enter your first name to be used in the simulation; the second will request a UML student email address (because the primary study for which the simulation was used recruited students from UMass Lowell). Entering the string “[any characters]@student.uml.edu” in this text-entry box will allow you to proceed.
+If you want to take the simulation for a test run, [here is a link to a demo][simulation-demo]. The link will bring you to a Preview Simulation page on which you may enter a name, select if you would like to use the "Hit and Run" or "Shoplifting" Scenario, and other configuration options. The *Conditions* shown on the right-hand side of the page show different combinations of the variables for each condition: guilt status, sentencing duration (if found guilty), and the probability of conviction.
+
+It is recommended to turn on the Avatar Customization feature located on the same Preview Simulation page for the full immersive experience.
 
 ### Features
 
@@ -41,6 +43,14 @@ Both sequences lead up to the avatar being summoned to court and asked to either
 </p>
 
 The simulation concludes by offering the user the option to either plead guilty and accept the plea offer or reject it. The option the user selects, alongside other variables scattered throughout the simulation, are then saved and passed as parameters into Qualtrics. Although it is separate from this software, the platform contains features to incorporate conditional logic in the survey flow based on variables expressed in the simulation (e.g. *guilt status*, plea offer *type*, sentencing *duration*).
+
+**Researcher Console**
+
+<p align="center">
+<img src="./img/home/research_console.PNG" align="center" alt="a view of the researcher console assets page" width="100%">
+</p>
+
+Another facet of the Plea Justice project is to providing a platform to allow other researchers to expand upon the existing project scope. The Researcher Console is a web interface for other researchers to write their own narratives, customize their own simulations, test their own variables, and more. To access this interface, click the *Resaercher Console* tab above or visit [researcher.pleajustice.org][reseacher-console-site].
 
 ### Installing
 
@@ -78,7 +88,8 @@ This project is licensed using [GNU GPLv3][licensing].
 ["Recording responses in Qualtrics"]: <> (add a link documentation on data cleaner)
 ["Licensing implementation"]: <> (will need to look into implementation on licensing; an About page)
 
-[simulation-demo]: https://umasslowell.co1.qualtrics.com/jfe/form/SV_25DlciTSNf0F5nn
+[simulation-demo]: https://demo2.pleajustice.org/
+[reseacher-console-site]:https://researcher.pleajustice.org/
 [git]: https://git-scm.com/downloads
 [python]: https://www.python.org/
 [http-server]: https://www.npmjs.com/package/http-server

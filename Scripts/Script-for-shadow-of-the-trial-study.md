@@ -2,6 +2,7 @@
 layout: page
 title: Shadow of the Trial Study
 permalink: /scripts/shadow-of-the-trial-study
+nav_order: 2
 parent: Scripts
 ---
 # Shadow of the Trial Study

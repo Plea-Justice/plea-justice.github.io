@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Original Pilot Studies
+nav_order: 1
 permalink: /scripts/original-pilot-studies
 parent: Scripts
 ---

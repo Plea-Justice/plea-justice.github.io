@@ -17,7 +17,7 @@ The survey flow can be broken up to multiple parts such that Qualtrics can redir
 
 <p align="center">
     <img src="/img/data_cleaner/data_cleaner1.png" align="center" alt="diagram of the experiment flow. Qualtrics entities are highlighted as blue">
-    <caption style="caption-side:bottom">The participant is redirected to each stage of the experiment as they complete the tasks of each element. Highlighted in blue are where Qualtrics response are recorded. For this example, two rows would be created since the experiment redirects to Qualtrics twice.</caption>
+    <caption style="caption-side:bottom">The participant is redirected to each stage of the experiment as they complete the tasks of each element. Highlighted in blue are where Qualtrics response are recorded. For this example, two rows would be created for a single participant since the experiment redirects to Qualtrics twice.</caption>
 </p>
 
 The survey data is exported as a .csv file, where data entries for each participant is split into multiple rows, sharing a parameter (a key, in a key-value association) called LinkID across these rows. The script combines the rows with the same LinkID together so that each participant occupies only 1 row.
