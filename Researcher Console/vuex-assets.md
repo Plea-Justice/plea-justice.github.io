@@ -29,7 +29,7 @@ An individual asset object in `assets` is composed of the following properties
 | `readOnly` | `Boolean` | If the file can not be modified            |
 | `isMine`   | `Boolean` | If the current user owns the file          |
 | `owner`    | `String`  | Users name that owns the file              |
-| `public`   | `String`  | If the file is shared between users        |
+| `public`   | `Boolean` | If the file is shared between users        |
 | `created`  | `String`  | When the file was created                  |
 | `modified` | `String`  | When the file was last modified            |
 
