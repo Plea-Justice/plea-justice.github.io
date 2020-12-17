@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Scripts
+title: Example Scripts
 permalink: /scripts
 nav_order: 2
 has_children: true

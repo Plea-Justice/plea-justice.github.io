@@ -5,7 +5,7 @@ permalink: /simulation/docs/configuration
 nav_order: 4
 parent: Simulation
 ---
-_Configuration of the simulation is [performed automatically](/console/docs/sim-interop) by the researcher console._
+_The researcher console configures interactive simulations automatically. This page is meant for users who wish to directly modify the simulation code._
 
 # Configuring the Simulation
 This page explains how to customize the plea bargain simulation to the needs of a particular experiment.
@@ -114,7 +114,7 @@ With different experimental conditions, the json file will have different parame
 ## Adding Buttons to Capture Participant Decisions
 Buttons may be added to custom animation scenes to present a choice to the participant and record their selection. A scene with a script just needs to have `"buttons":["Choice1", "Choice2", "Choice3"]` added to the end with as many choices as required. This may have a foreground, background, and actor like any other custom scene, or it may omit these and only have a script prompting the participant for their choice. The buttons will be placed in the middle of the screen in the order listed.
 > ```
-> {   
+> {
 >     "name":"Participant Chooses How to Plea",
 >     "script":"Based on this information, will you accept the plea deal offered?",
 >     "buttons":["Accept", "Reject"]

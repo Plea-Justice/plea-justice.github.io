@@ -3,7 +3,7 @@ layout: page
 title: Original Pilot Studies
 nav_order: 1
 permalink: /scripts/original-pilot-studies
-parent: Scripts
+parent: Example Scripts
 ---
 ### Overview
 
@@ -86,7 +86,7 @@ JUDGE:
 
 *Participant avatar is led out of the courtroom by a uniformed officer and appears to be transported to prison or is flashed to a prison cell, thinking to themselves with their eyes closed and arms crossed.*
 
-AVATAR:  
+AVATAR:
 * I can’t believe this is happening. I think I remember the day **Mr. Clark** is referring to... >>
 
 *The flashback sequence begins where the avatar sticks their key into the ignition of their car and the sequence extends beyond the avatar’s same surprised reaction from the beginning of the simulation.*

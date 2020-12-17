@@ -3,7 +3,7 @@ layout: page
 title: Defense Attorney Recommendation Study
 permalink: /scripts/defense-attorney-recommendation-study
 nav_order: 4
-parent: Scripts
+parent: Example Scripts
 ---
 # Defense Attorney Recommendation Study
 

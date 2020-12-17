@@ -3,7 +3,7 @@ layout: page
 title: Shadow of the Trial Study
 permalink: /scripts/shadow-of-the-trial-study
 nav_order: 2
-parent: Scripts
+parent: Example Scripts
 ---
 # Shadow of the Trial Study
 
@@ -86,7 +86,7 @@ DISTRICT COURT JUDGE:
 
 *Participant avatar is flashed to a jail cell, where they are shown thinking to themselves with their eyes closed and arms crossed.*
 
-AVATAR:  
+AVATAR:
 * I can’t believe this is happening. I think I remember the day Mr. Clark is referring to... >>
 
 *The flashback sequence begins where the avatar sticks their key into the ignition of their car and the sequence extends beyond the avatar’s same surprised reaction from the beginning of the simulation.*

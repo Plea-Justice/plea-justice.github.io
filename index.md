@@ -7,24 +7,20 @@ nav_order: 1
 ---
 
 # The Plea Justice Project
-The Plea Justice Project offers a simulation of plea bargaining processes, which has been made using Adobe Animate and JavaScript. This animated software was created as a potential alternative to existing research paradigms (i.e., vignettes and high-stakes deceptions) used to study plea decision-making.
+The Plea Justice Project provides an interactive simulation of the plea bargaining processes, offering an alternative to existing paradigms in plea decision-making research such as vignettes and high-stakes deceptions.
+
+Participants are presented with one of two animated scenarios in which they are represented by a customizable avatar. From there, the story can be developed with characters representing a prosecutor or the participants' defense attorney.
+
+The plea simulation integrates with the Qualtrics survey platform and features a graphical configuration tool for researchers.
 
 ***
 
 ## Examples
-If you want to take the simulation for a test run, [here is a link to a demo][simulation-demo]. The link will bring you to a Preview Simulation page on which you may enter a name, select if you would like to use the "Hit and Run" or "Shoplifting" Scenario, and other configuration options. The *Conditions* shown on the right-hand side of the page show different combinations of the variables for each condition: guilt status, sentencing duration (if found guilty), and the probability of conviction.
+[Click here for a demo][simulation-demo] of the plea simulation. The link will bring you to the _Researcher's Preview_ page on which you may select one of the two existing scenarios (_Hit and Run_ or _Shoplifting_), variables such as the participant's first name, and other configuration options. The right-hand side of the page provides a sample of the different experimental conditions a participant could be assigned to and the variables manipulated: guilt status, sentencing duration (if found guilty), and the probability of conviction.
 
 It is recommended to turn on the Avatar Customization feature located on the same Preview Simulation page for the full immersive experience.
 
 ### Features
-
-**Avatar Customization**
-
-<p align="center">
-<img src="./img/home/avatar_creation.PNG" align="center" alt="menu showing customizable aspects of the avatar" width="75%">
-</p>
-
-Using the interface shown above, users are able to customize an avatar to represent them in the simulation. Controls are provided to select figure types, eye types, or hair styles, as well as selecting a color for the hair, eyes, skin, and shirt.
 
 **Animation & Dialogue**
 
@@ -35,6 +31,14 @@ The user is presented with one of two unique scenarios featuring the customized 
 | <img src="./img/home/judge.PNG" alt="judge reminding the reader their rights" width="100%"> | <img src="./img/home/district_attorney.PNG" alt="district attorney reminding the outcomes if pleading guilty" width="100%"> |
 
 Both sequences lead up to the avatar being summoned to court and asked to either accept a plea offer and plead guilty, or reject the offer and go to trial. The user navigates the simulation by clicking the “>>” button as it appears (when the dialogue has stopped); as the simulation progresses, they learn more about the incident surrounding their avatar (e.g., whether they are innocent or guilty of the crime to which they are accused).
+
+**Avatar Customization**
+
+<p align="center">
+<img src="./img/home/avatar_creation.PNG" align="center" alt="menu showing customizable aspects of the avatar" width="75%">
+</p>
+
+Using the interface shown above, users are able to customize an avatar to represent them in the simulation. Controls are provided to select figure types, eye types, or hair styles, as well as selecting a color for the hair, eyes, skin, and shirt.
 
 **Modifiable Values & Recording Responses in Qualtrics**
 
@@ -47,10 +51,10 @@ The simulation concludes by offering the user the option to either plead guilty 
 **Researcher Console**
 
 <p align="center">
-<img src="./img/home/research_console.PNG" align="center" alt="a view of the researcher console assets page" width="100%">
+<img src="./img/home/research_console.png" align="center" alt="a view of the researcher console assets page" width="100%">
 </p>
 
-Another facet of the Plea Justice project is to providing a platform to allow other researchers to expand upon the existing project scope. The Researcher Console is a web interface for other researchers to write their own narratives, customize their own simulations, test their own variables, and more. To access this interface, click the *Resaercher Console* tab above or visit [researcher.pleajustice.org][reseacher-console-site].
+Another facet of the Plea Justice project is to providing a platform to allow other researchers to expand upon the existing project scope. The Researcher Console is a web interface for other researchers to write their own narratives, configure their own simulations, test their own variables, and more. To access this interface, click the *Researcher Console* tab above or visit [researcher.pleajustice.org][reseacher-console-site].
 
 ### Installing
 
@@ -69,7 +73,10 @@ or download and extract the zip file on the desktop site. Once the files are on 
 ***
 
 ## Contribution
+
 Interested in contributing to the development of this project or collaborating on related research? You can [contact the Principal Investigator here][contact-PI] if you have any questions, comments, concerns or inquiries regarding the project or the related research.
+
+The project is written in vanilla JavaScript and the animated assets are created in _Adobe Animate_.
 
 Before contributing to the software, take a look at [how the project is made](/simulation/docs/software-architecture-layout) or the [source code][github-page] and see if there is an area in need of improvements.
 
