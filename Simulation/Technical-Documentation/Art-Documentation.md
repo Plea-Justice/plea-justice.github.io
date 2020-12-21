@@ -54,10 +54,10 @@ Always name `.fla` files [Scenario Name]\_[Scene Name]. For example:
 
 ### Example Workspace
 
-####Avatar layers####
+#### Avatar layers ####
 <img src="/img/file_names.png">
 
-####Jail####
+#### Jail ####
 For the **"No Background"** export, all of the background layers can be disabled:
 <img src="/img/JailNoBackgroundAnimationLayersScreenShot2020-12-21at2.43.44PM.png">
 **NOTE:** those layers are hidden anyway and won't be published to JS. They can be removed from this FLA. I guess are just in there for reference.
