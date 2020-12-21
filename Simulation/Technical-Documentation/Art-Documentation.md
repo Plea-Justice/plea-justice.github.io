@@ -119,7 +119,7 @@ The higher the strength of the optimization (max is 100) the more detail could g
 
 
 ## Final Notes:
-Refer to [palettization guide](https://github.com/Plea-Justice/pleabargain-simulation/wiki/Palettization%20Guide) for skin tones, eye colors, and hair colors.
+Refer to [palettization guide](https://pleajustice.org/simulation/docs/asset-customization) for skin tones, eye colors, and hair colors.
 Follow a naming guide.
 Layer your assets in every file with proper layer names, and properly label files (as described at the start of this page).
 Make regular commits, upload and export regular video updates.
