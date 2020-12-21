@@ -54,7 +54,13 @@ Always name `.fla` files [Scenario Name]\_[Scene Name]. For example:
 
 ### Example Workspace
 
+####Avatar layers####
 <img src="/img/file_names.png">
+
+####Jail#### 
+For the **"No Background"** export, all of the background layers can be disabled.
+
+For the **regular export**, all of the background layers should enabled with the static sky layers above the animated sky layer. The jail image should be above all of the sky layers
 
 ## Additional Guidelines
 
