@@ -27,7 +27,7 @@ Feature layers must be named similarly. For example:
 ## Filenames consist of the scenario name followed by the scene name and separated by an underscore.
 Always name `.fla` files [Scenario Name]\_[Scene Name]. For example:
 
-**Larceny_FlashbackGuilty.fla** contains the guilty condition flashback scene for the larceny scenario, two avatar layers, six eye option layers, and eight hair option layers. 
+**Larceny_FlashbackGuilty.fla** contains the guilty condition flashback scene for the larceny scenario, two avatar layers, six eye option layers, and eight hair option layers.
 
 
 ### Hit and Run Scenario Scene Files
@@ -57,10 +57,14 @@ Always name `.fla` files [Scenario Name]\_[Scene Name]. For example:
 ####Avatar layers####
 <img src="/img/file_names.png">
 
-####Jail#### 
-For the **"No Background"** export, all of the background layers can be disabled.
+####Jail####
+For the **"No Background"** export, all of the background layers can be disabled:
+<img src="/img/JailNoBackgroundAnimationLayersScreenShot2020-12-21at2.43.44PM.png">
+**NOTE:** those layers are hidden anyway and won't be published to JS. They can be removed from this FLA. I guess are just in there for reference.
 
-For the **regular export**, all of the background layers should enabled with the static sky layers above the animated sky layer. The jail image should be above all of the sky layers
+
+For the **regular export**, all of the background layers should enabled with the static sky layers above the animated sky layer. The jail image should be above all of the sky layers:
+<img src="/img/JailAnimationLayersScreenShot2020-12-21at2.43.26PM.png">
 
 ## Additional Guidelines
 
