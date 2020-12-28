@@ -2,15 +2,14 @@
 layout: page
 title: Working with Qualtrics
 permalink: /simulation/working-with-qualtrics
-nav_order: 2
-parent: Simulation
+nav_order: 4
 ---
 
-# Working with Qualtrics 
+# Working with Qualtrics
 
 Certain simulation parameters may be manipulated within Qualtrics. These parameters may set or be randomly assigned in Qualtrics' embedded data and then sent to the simulation via a [query string](https://www.qualtrics.com/support/survey-platform/survey-module/survey-flow/standard-elements/passing-information-through-query-strings/) with the simulation's URL.
 
-The simulation will also send data back to Qualtrics in this way. For instance, the features a participant has selected for his or her avatar and answers to prompts within the simulation may be passed back to Qualtrics in the query string.  
+The simulation will also send data back to Qualtrics in this way. For instance, the features a participant has selected for his or her avatar and answers to prompts within the simulation may be passed back to Qualtrics in the query string.
 
 ## Controlling the Simulation
 
@@ -63,4 +62,3 @@ The data received by the simulation and the data returned back to Qualtrics does
 | id | Whole number. | ID randomly assigned to the participant to connect data accross survey responses. |
 | email | Valid email address. | Email address of the participant passed through the simulation. |
 | modcounter | 1 | determines if the survey is on the first or second randomized scenario |
-

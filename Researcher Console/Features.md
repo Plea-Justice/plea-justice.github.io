@@ -1,9 +1,8 @@
 ---
 layout: page
-title: Features
+title: Feature Quick Reference
 permalink: /console/features
-nav_order: 2
-parent: Researcher Console
+nav_order: 3
 ---
 
 # Features
@@ -66,7 +65,7 @@ When editing a Scenario, the features on the toolbar floating on the top of the 
 2.  The <u>Add Condition</u> button creates another condition by replicating the right-most column.
 3.  This area contains features that are in regards to individual scenes.
     1.  The <u>Swap</u> button allows the user to swap two scenes within the same Condition by first selecting one scene, and then selecting the scene the user would like to swap it with.
-    2.  The <u>Copy</u> button allows the user to copy a scene by first selecting a scene to be copied and then selecting as many scenes as the user would like to replace.  
+    2.  The <u>Copy</u> button allows the user to copy a scene by first selecting a scene to be copied and then selecting as many scenes as the user would like to replace.
     3.  The <u>Bind</u> button allows the user to bind the properties of scenes in the same row to forcibly match that of a single scene, by first selecting the scene the user would like replicated and then selecting other scenes <i>to bind to</i>.
 4.  This area contains features that are in regards to finishing and wrapping up the project.
     1.  The console is responsive to <u>unsaved changes</u> so the user is notified if there are any.

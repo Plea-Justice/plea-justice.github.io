@@ -9,16 +9,17 @@ nav_order: 1
 # The Plea Justice Project
 The Plea Justice Project provides an interactive simulation of the plea bargaining processes, offering an alternative to existing paradigms in plea decision-making research such as vignettes and high-stakes deceptions.
 
-Participants are presented with one of two animated scenarios in which they are represented by a customizable avatar. From there, the story can be developed with characters representing a prosecutor or the participants' defense attorney.
+Participants are presented with one of two animated scenarios in which they are represented by a customizable avatar. From there, the story can be developed with characters representing a prosecutor or the participant's defense attorney.
 
 The plea simulation integrates with the Qualtrics survey platform and features a graphical configuration tool for researchers.
-
-***
-
-## Examples
-[Click here for a demo][simulation-demo] of the plea simulation. The link will bring you to the _Researcher's Preview_ page on which you may select one of the two existing scenarios (_Hit and Run_ or _Shoplifting_), variables such as the participant's first name, and other configuration options. The right-hand side of the page provides a sample of the different experimental conditions a participant could be assigned to and the variables manipulated: guilt status, sentencing duration (if found guilty), and the probability of conviction.
+<details>
+<summary><a href="https://demo.pleajustice.org">Click here for a demo</a> of the plea simulation.</summary>
+The link will bring you to the <i>Researcher's Preview</i> page on which you may select one of the two existing scenarios (<i>Hit and Run</i> or <i>Shoplifting</i>), variables such as the participant's first name, and other configuration options. The right-hand side of the page provides a sample of the different experimental conditions a participant could be assigned to and the variables manipulated: guilt status, sentencing duration (if found guilty), and the probability of conviction.
 
 It is recommended to turn on the Avatar Customization feature located on the same Preview Simulation page for the full immersive experience.
+</details>
+
+***
 
 ### Features
 

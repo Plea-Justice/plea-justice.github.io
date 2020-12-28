@@ -2,7 +2,7 @@
 layout: page
 title: Researcher Console
 permalink: /console
-nav_order: 3
+nav_order: 5
 has_children: true
 ---
 

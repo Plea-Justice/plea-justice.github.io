@@ -5,7 +5,7 @@ permalink: /simulation/docs/configuration
 nav_order: 4
 parent: Simulation
 ---
-_The researcher console configures interactive simulations automatically. This page is meant for users who wish to directly modify the simulation code._
+_The researcher console now configures interactive simulations automatically. This page is meant for users who wish to directly modify the simulation code._
 
 # Configuring the Simulation
 This page explains how to customize the plea bargain simulation to the needs of a particular experiment.
