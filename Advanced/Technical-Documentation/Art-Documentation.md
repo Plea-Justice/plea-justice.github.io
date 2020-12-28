@@ -27,7 +27,7 @@ Feature layers must be named similarly. For example:
 ## Filenames consist of the scenario name followed by the scene name and separated by an underscore.
 Always name `.fla` files [Scenario Name]\_[Scene Name]. For example:
 
-**Larceny_FlashbackGuilty.fla** contains the guilty condition flashback scene for the larceny scenario, two avatar layers, six eye option layers, and eight hair option layers. 
+**Larceny_FlashbackGuilty.fla** contains the guilty condition flashback scene for the larceny scenario, two avatar layers, six eye option layers, and eight hair option layers.
 
 
 ### Hit and Run Scenario Scene Files
@@ -54,7 +54,17 @@ Always name `.fla` files [Scenario Name]\_[Scene Name]. For example:
 
 ### Example Workspace
 
+#### Avatar layers ####
 <img src="/img/file_names.png">
+
+#### Jail ####
+For the "No Background" export, all of the background layers should be disabled:
+<img src="/img/JailNoBackgroundAnimationLayersScreenShot2020-12-21at2.43.44PM.png">
+NOTE: those layers are hidden anyway and won't be published to JS. They can be removed from this FLA. I guess are just in there for reference.
+
+
+**For the regular export, all of the background layers should enabled with the static sky layers above the animated sky layer. The jail image should be above all of the sky layers**:
+<img src="/img/JailAnimationLayersScreenShot2020-12-21at2.43.26PM.png">
 
 ## Additional Guidelines
 
@@ -76,7 +86,46 @@ Use _Classic Tweens_ in Animate where possible. Any animated figure should be a 
 
 Take care to backup your working fla files on your own backup drive as well as on the shared drive. When uploading files, please do it under your own unique user and not as a shared user so contributions can be properly attributed. In other words, don't log into drive as the admin@pleajustice.org user to upload. Upload your 'condensed' files as described in Deliverables above to their appropriate folders and **overwrite** the old files with the same name. Google Drive will ask if you want to overwrite or keep version separate, you **do not** want to keep them separate. We can always go back to an old version with 'Manage Versions'.
 
-## Workflow
+## Performance
+
+Layer Organization is important. Organize layers in layer folders in Adobe Animate to make the project straightforward to understand by another team member.
+
+Help keep the published js files smaller in size by using walk cycle loops, tweening animations whenever possible, simplifying shapes, merging background layers (anything thats not in the key layers discussed above such as figure0hair0, etc.) into one layer **while making sure everything is still editable** (use grouping or converting things into symbols (or movie clips, but I think symbols are slightly lighter weight) so they can be edited later). Use this [Adobe guide](https://helpx.adobe.com/animate/using/best-practices-optimizing-fla-files.html) on optimizing the animations.
+
+### Optimizing shapes ###
+
+#### Step one - Draw vectors or trace an image, but please prune duplicates ####
+Background art should be natively drawn or copied in vectors. If copied in make sure the background is not an image but vectors, e.g. vectorized/traced rasters (pngs, jpgs, whatever).
+Here is a background png getting traced with default settings:
+<img src="/img/optimization/imagetrace.png">
+
+
+Once a background is traced from an image, the image can be removed from the library to save space.
+**Make sure there aren't duplicates of backgrounds anywhere on the tilemline or under other art**
+Look at the contents of the Library and remove any duplicate pngs or symbols.
+
+See how this one has a duplicate Recovered image for some reason? We don't want that.
+<img src="/img/optimization/duplicateImages.png">
+
+See how this one uses duplicate assets in a later part of the timeline? Not ideal.
+<img src="/img/optimization/duplicateImagesandSymbols.png">
+
+#### Step two - Optimize shapes for faster RAM performance ####
+Click on the first frame in the timeline layer to select all the shapes (or double click it if it's grouped), then Modify > Shape > Optimize:
+<img src="/img/optimization/optimize1.png">
+
+The higher the strength of the optimization (max is 100) the more detail could get lost in the image. Feel free to experiment with this setting to keep enough detail while still optimizing. I did 100 and I found the detailed lost was acceptable, but if not lower the strength. Test the pupblished JS file in browser and note the performance.
+<img src="/img/optimization/optimize2.png">
+
+
+## Final Notes:
+Refer to [palettization guide](https://pleajustice.org/simulation/docs/asset-customization) for skin tones, eye colors, and hair colors.
+Follow a naming guide.
+Layer your assets in every file with proper layer names, and properly label files (as described at the start of this page).
+Make regular commits, upload and export regular video updates.
+BACKUP your work on Google Drive regularly.
+
+## Workflow (caution: this is older)
 
 In general, the art assets that an animator would work on for this project are as follows:
 * Custom avatars and their features (hair styles, eyes, etc.)
@@ -114,17 +163,3 @@ Each mouth flap needs to be set according to this.
 ## Scenes
 
 Most assets created in Animate will be manually published out of Adobe Animate as a .js javascript file. The published animations are in a vector format (asset scales in a lossless state according to the dimensions it is being viewed or rendered at). Some assets will be raster images (mainly used for backgrounds).
-
-## Performance
-
-Layer Organization is important. Organize layers in layer folders in Adobe Animate to make the project straightforward to understand by another team member.
-
-Help keep the published js files smaller in size by using walk cycle loops, tweening animations whenever possible, simplifying shapes, merging background layers (anything thats not in the key layers discussed above such as figure0hair0, etc.) into one layer **while making sure everything is still editable** (use grouping or converting things into symbols (or movie clips, but I think symbols are slightly lighter weight) so they can be edited later). Use this [Adobe guide](https://helpx.adobe.com/animate/using/best-practices-optimizing-fla-files.html) on optimizing the animations.
-
-
-## Final Notes:
-Refer to [palettization guide](https://github.com/Plea-Justice/pleabargain-simulation/wiki/Palettization%20Guide) for skin tones, eye colors, and hair colors.
-Follow a naming guide.
-Layer your assets in every file with proper layer names, and properly label files (as described at the start of this page).
-Make regular commits, upload and export regular video updates.
-BACKUP your work on Google Drive regularly.
