@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Working with Qualtrics
-permalink: /simulation/working-with-qualtrics
-nav_order: 4
+title:  Connecting to Qualtrics
+permalink: /qualtrics
+nav_order: 3
 ---
 
 # Working with Qualtrics

@@ -1,10 +1,14 @@
 ---
 layout: page
-title: Simulation
-permalink: /simulation
+title: Internal Documentation
+permalink: /internal
 nav_order: 5
 has_children: true
 ---
+
+# Internal Documentation
+
+This section contains documentation meant for project administrators, developers, animators, and those wishing to do advanced modifications to a simulation.
 
 The plea bargain simulation allows researchers to test participant's legal decisions through
 a computer simulation which offers enhanced participant immersion and ecological validity.

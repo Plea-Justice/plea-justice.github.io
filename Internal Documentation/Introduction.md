@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Introduction
-permalink: /simulation/introduction
+permalink: /internal/introduction
 nav_order: 1
-parent: Simulation
+parent: Developers
 ---
 
 # Introduction to the Plea Bargain Simulation

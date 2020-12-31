@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Data Cleaner
-permalink: /simulation/data-cleaner
+permalink: /internal/data-cleaner
 nav_order: 3
-parent: Simulation
+parent: Internal Documentation
 ---
 # Cleaning Exported Qualtrics Data
 

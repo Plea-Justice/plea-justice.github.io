@@ -1,9 +1,9 @@
 ---
 layout: page
 title: A VueX Overview
-permalink: /console/docs/vuex-overview
-parent: Technical Documentation
-grand_parent: Researcher Console
+permalink: /internal/dev/vuex-overview
+parent: Developers
+grand_parent: Internal Documentation
 ---
 
 # About VueX and Our Styling & Implementation

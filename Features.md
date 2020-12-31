@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Feature Quick Reference
-permalink: /console/features
-nav_order: 3
+title: Console Quick Reference
+permalink: /reference
+nav_order: 4
 ---
 
 # Features

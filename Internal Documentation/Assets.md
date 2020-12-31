@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Art Documentation
-permalink: /simulation/docs/art-documentation
-parent: Technical Documentation
-grand_parent: Simulation
+title: Art Assets
+permalink: /internal/art-assets
+parent: Internal Documentation
+nav_order: 3
 ---
 # Adobe Animate File Naming Conventions
 
@@ -119,7 +119,7 @@ The higher the strength of the optimization (max is 100) the more detail could g
 
 
 ## Final Notes:
-Refer to [palettization guide](https://pleajustice.org/simulation/docs/asset-customization) for skin tones, eye colors, and hair colors.
+Refer to [palettization guide](https://pleajustice.org/internal/dev/asset-customization) for skin tones, eye colors, and hair colors.
 Follow a naming guide.
 Layer your assets in every file with proper layer names, and properly label files (as described at the start of this page).
 Make regular commits, upload and export regular video updates.

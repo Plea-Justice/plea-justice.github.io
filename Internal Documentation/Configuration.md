@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Manual Configuration
-permalink: /simulation/docs/configuration
+permalink: /internal/configuration
 nav_order: 4
-parent: Simulation
+parent: Internal Documentation
 ---
 _The researcher console now configures interactive simulations automatically. This page is meant for users who wish to directly modify the simulation code._
 
@@ -11,12 +11,12 @@ _The researcher console now configures interactive simulations automatically. Th
 This page explains how to customize the plea bargain simulation to the needs of a particular experiment.
 
 **Jump to:**
-* [Necessary Software](/simulation/docs/configuration#necessary-software)
-* [Downloading the Simulation Software](/simulation/docs/configuration#downloading-the-simulation-software)
-* [Editing the Script and Rearranging Scenes](/simulation/docs/configuration#editing-the-script-and-rearranging-scenes)
-* [Adding Buttons to Capture Participant Decisions](/simulation/docs/configuration#adding-buttons-to-capture-participant-decisions)
-* [Note on Scripts and Special Control Sequences](/simulation/docs/configuration#note-on-scripts-and-special-control-sequences)
-* [Managing Assets](/simulation/docs/configuration#managing-assets)
+* [Necessary Software](/internal/dev/configuration#necessary-software)
+* [Downloading the Simulation Software](/internal/dev/configuration#downloading-the-simulation-software)
+* [Editing the Script and Rearranging Scenes](/internal/dev/configuration#editing-the-script-and-rearranging-scenes)
+* [Adding Buttons to Capture Participant Decisions](/internal/dev/configuration#adding-buttons-to-capture-participant-decisions)
+* [Note on Scripts and Special Control Sequences](/internal/dev/configuration#note-on-scripts-and-special-control-sequences)
+* [Managing Assets](/internal/dev/configuration#managing-assets)
 
 ***
 ## Necessary Software

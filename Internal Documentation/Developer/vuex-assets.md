@@ -1,9 +1,9 @@
 ---
 layout: page
 title: VueX Assets
-permalink: /console/docs/vuex-assets
-parent: Technical Documentation
-grand_parent: Researcher Console
+permalink: /internal/dev/vuex-assets
+parent: Developers
+grand_parent: Internal Documentation
 ---
 
 # Assets

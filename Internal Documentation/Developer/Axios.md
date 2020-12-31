@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Using Axios in Nuxt
-permalink: /console/docs/axios
-parent: Technical Documentation
-grand_parent: Researcher Console
+permalink: /internal/dev/axios
+parent: Developers
+grand_parent: Internal Documentation
 ---
 
 ### Sections

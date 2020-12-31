@@ -2,7 +2,8 @@
 layout: page
 title: Administrator's Guide
 permalink: /internal/administrator
-nav_order: 5
+nav_order: 0
+parent: Internal Documentation
 ---
 
 # Administrator's Guide

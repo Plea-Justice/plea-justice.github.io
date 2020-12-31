@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Our VueX Structure
-permalink: /console/docs/our-vuex-structure
-parent: Technical Documentation
-grand_parent: Researcher Console
+permalink: /internal/dev/our-vuex-structure
+parent: Developers
+grand_parent: Internal Documentation
 ---
 
 # What is a Scenario

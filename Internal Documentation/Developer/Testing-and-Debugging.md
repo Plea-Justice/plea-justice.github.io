@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Testing And Debugging
-permalink: /simulation/docs/testing-and-debugging
-parent: Technical Documentation
-grand_parent: Simulation
+permalink: /internal/dev/testing-and-debugging
+parent: Developers
+grand_parent: Internal Documentation
 ---
 # Testing & Debugging
 

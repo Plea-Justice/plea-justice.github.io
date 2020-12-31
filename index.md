@@ -81,7 +81,7 @@ Interested in contributing to the development of this project or collaborating o
 
 The project is written in vanilla JavaScript and the animated assets are created in _Adobe Animate_.
 
-Before contributing to the software, take a look at [how the project is made](/simulation/docs/software-architecture-layout) or the [source code][github-page] and see if there is an area in need of improvements.
+Before contributing to the software, take a look at [how the project is made](/internal/dev/software-architecture-layout) or the [source code][github-page] and see if there is an area in need of improvements.
 
 ### License
 This project is licensed using [GNU GPLv3][licensing].

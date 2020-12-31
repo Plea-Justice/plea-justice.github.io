@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Software Diagrams
-permalink: /simulation/docs/software-diagrams
-parent: Technical Documentation
-grand_parent: Simulation
+permalink: /internal/dev/software-diagrams
+parent: Developers
+grand_parent: Internal Documentation
 ---
 # v0.1.1 #
 <img src="/img/v0.1.1.png">

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Using Static Data & Assets
-permalink: /console/docs/using-static-data-assets
-parent: Technical Documentation
-grand_parent: Researcher Console
+permalink: /internal/dev/using-static-data-assets
+parent: Developers
+grand_parent: Internal Documentation
 ---
 
 ### sections

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Backend API Routes
-permalink: /console/docs/backend-api
-parent: Technical Documentation
-grand_parent: Researcher Console
+permalink: /internal/dev/backend-api
+parent: Developers
+grand_parent: Internal Documentation
 ---
 
 # Backend API Routes
@@ -16,12 +16,12 @@ The server's API endpoints are defined under `server/routes/api_v1/`. The files 
 |auth.js| Handles user authentication and registration. |
 |scenario.js| Handles scenario save and management. |
 |assets.js| Handles asset uploads and management. |
-|sim-generate.js| Handles [simulation generation](/console/docs/sim-interop) and packaging. |
+|sim-generate.js| Handles simulation generation and packaging. |
 |admin.js| Handles administrator-only operations. |
 
 ## Authentication
 
-On any request to the server, [`express-session`](https://www.npmjs.com/package/express-session) automatically attaches a cookie containing a session id. It records that id in the `sessions` collection of the [database](/console/docs/backend-data) which is later used to track the logged-in state of that session.
+On any request to the server, [`express-session`](https://www.npmjs.com/package/express-session) automatically attaches a cookie containing a session id. It records that id in the `sessions` collection of the [database](/internal/dev/backend-data) which is later used to track the logged-in state of that session.
 
 The middleware functions in `server/middleware/authenticateRoutes.js` are loaded on most routes and prevent requests from sessions that are not logged-in or that for which the user does not have appropriate permissions. Once a user is logged-in, the permitted API endpoints become accessible.
 
@@ -44,8 +44,6 @@ Relevant Files:
 
 Scenarios are represented as a flattened version of the client state with additional properties stored in the `scenarios` collection of the database. They are retrieved by the `user_id` property which is the object ID of the user they they are associated with. Some methods, such as `GET /api/v1/scenarios`, return only a subset of the scenario object which is equivalent to the information stored in `meta` of the client state.
 
-More information on the representation of scenarios is available [here](/console/docs/backend-data).
-
 Relevant Files:
 
 - `server/routes/api_v1/scenario.js`
@@ -57,7 +55,7 @@ Users may manage assets in their own user data directory. This directory is crea
 
 Asset uploads are handled by [`express-fileupload`](https://www.npmjs.com/package/express-fileupload) which automatically recieves uploaded files and makes them available as part of the request object. Several checks are performed to make sure the asset type matches its extension, and the filename string is sanitized with [`sanitize-filename`](https://www.npmjs.com/package/sanitize-filename) before it is saved.
 
-Clip and actor (`JavaScript`) assets may not be renamed due to implementation [issues with Animate](/console/docs/sim-interop#adobe-animate). These assets are also run through a script which [enables asset customization](/simulation/docs/asset-customization).
+Clip and actor (`JavaScript`) assets may not be renamed due to implementation issues with Animate. These assets are also run through a script which [enables asset customization](/internal/dev/asset-customization).
 
 Finally, a new process is started to generate a thumbnail of each asset in the background. Because the Animate assets use the HTML canvas and other browser JavaScript unavailable in Node, [`puppeteer`](https://www.npmjs.com/package/puppeteer) is used to render thumbnails in a headless Chromium instance.
 
@@ -67,8 +65,6 @@ Relevant Files:
 - `server/common/thumbnail.js`
 
 ## Simulation Interoperability
-
-This is handled in its own [article](/console/docs/sim-interop).
 
 Relevant Files:
 

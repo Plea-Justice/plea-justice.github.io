@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Software Architecture Layout
-permalink: /simulation/docs/software-architecture-layout
-parent: Technical Documentation
-grand_parent: Simulation
+permalink: /internal/dev/software-architecture-layout
+parent: Developers
+grand_parent: Internal Documentation
 ---
 # **Plea Bargain Software High-Level Project Overview**
 
@@ -15,7 +15,7 @@ This document will provide a general overview of these systems, and their intero
 ***
 
 ## The Assets
-The Animation team will be responsible for creating assets for use in the project. See [Art Documentation](/simulation/docs/art-documentation) for more information.
+The Animation team will be responsible for creating assets for use in the project. See [Art Documentation](/internal/dev/art-documentation) for more information.
 
 ### Movie Clip
 These are animated full-motion animations created using Adobe Animate and exported in a CreateJS format.
@@ -29,7 +29,7 @@ These are *.png* files which are overlaid or underlaid against an actor in a dia
 ### Palettization
 Both **Movie Clip** and **Actor files** must be processed for *palettization* if the user avatar is present, so that any color changes made by the user/participant are reflected in the rendered content. *Palettization* is an internally coined term used to refer to the process of replacing specific <u>color codes</u> in the asset files with <u>variable references</u>, so that elements in asset files can reflect a dynamic rather than static selection of colors.
 
-The `modules/assets/publishing-scripts/add-lib.sh` file is needed palettize these asset files. Due to changes made by Adobe to the syntax of this output in the middle of development, `add-lib.sh` is also used to translate newly published .js files to the more legacy compatible format. More details about the palettization guide can be found on the [Asset Customization](/simulation/docs/asset-customization) page.
+The `modules/assets/publishing-scripts/add-lib.sh` file is needed palettize these asset files. Due to changes made by Adobe to the syntax of this output in the middle of development, `add-lib.sh` is also used to translate newly published .js files to the more legacy compatible format. More details about the palettization guide can be found on the [Asset Customization](/internal/dev/asset-customization) page.
 
 ***
 
@@ -40,7 +40,7 @@ This is typically a Qualtrics survey, which begins and ends each experiment (inf
 The flow of the Qualtrics survey is very important. If post-simulation URL parameters are present, then the survey must flow directly into post-simulation questions. If the post-simulation URL parameters are not present, then the survey must flow to pre-simulation processing.
 
 ### Pre-simulation processing
-Gaining user informed <u>consent</u>, recording their <u>user name</u> and <u>email</u>, randomly generating values such as <u>guilty/not-guilty</u>, and other information as required by the simulation module are to be done in this section of the flow. Once recorded/generated, these data elements should be passed as URL parameters to the simulation module *.html* on the web server. See previous simulation surveys in [Testing & Debugging](/simulation/docs/testing-and-debugging) for an example.
+Gaining user informed <u>consent</u>, recording their <u>user name</u> and <u>email</u>, randomly generating values such as <u>guilty/not-guilty</u>, and other information as required by the simulation module are to be done in this section of the flow. Once recorded/generated, these data elements should be passed as URL parameters to the simulation module *.html* on the web server. See previous simulation surveys in [Testing & Debugging](/internal/dev/testing-and-debugging) for an example.
 
 **NOTE**: The ID of the Qualtrics survey itself is passed as a URL parameter, and is required in order to properly reload the Qualtrics survey for post-simulation questions.
 

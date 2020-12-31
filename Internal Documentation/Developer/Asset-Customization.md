@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Asset Customization
-permalink: /simulation/docs/asset-customization
-parent: Technical Documentation
-grand_parent: Simulation
+permalink: /internal/dev/asset-customization
+parent: Developers
+grand_parent: Internal Documentation
 ---
 # Asset Customization
 

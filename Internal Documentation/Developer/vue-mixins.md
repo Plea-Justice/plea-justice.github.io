@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Vue Mixins
-permalink: /console/docs/vue-mixins
-parent: Technical Documentation
-grand_parent: Researcher Console
+permalink: /internal/dev/vue-mixins
+parent: Developers
+grand_parent: Internal Documentation
 ---
 
 # Mixins
