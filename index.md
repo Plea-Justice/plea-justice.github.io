@@ -75,6 +75,8 @@ or download and extract the zip file on the desktop site. Once the files are on 
 
 ## Contribution
 
+New developers, please read through _all_ of the documentation on this site.
+
 Interested in contributing to the development of this project or collaborating on related research? You can [contact the Principal Investigator here][contact-PI] if you have any questions, comments, concerns or inquiries regarding the project or the related research.
 
 The project is written in vanilla JavaScript and the animated assets are created in _Adobe Animate_.
