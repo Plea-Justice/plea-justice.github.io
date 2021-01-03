@@ -8,17 +8,13 @@ nav_order: 3
 # Working with Qualtrics
 {: .no_toc}
 
-Certain simulation parameters may be manipulated within Qualtrics. These parameters may set or be randomly assigned in Qualtrics' embedded data and then sent to the simulation via a [query string](https://www.qualtrics.com/support/survey-platform/survey-module/survey-flow/standard-elements/passing-information-through-query-strings/) with the simulation's URL.
+Participants are redirected from Qualtrics to the simulation via a custom end survey block in the survey flow. All data is passed between the simulation and Qualtrics in the URL as [query parameters](https://www.qualtrics.com/support/survey-platform/survey-module/survey-flow/standard-elements/passing-information-through-query-strings/).
 
-The simulation will also send data back to Qualtrics in this way. For instance, the features a participant has selected for his or her avatar and answers to prompts within the simulation may be passed back to Qualtrics in the query string.
-
-Most studies will proceed in the following order:
+During a study, participants will be redirected from Qualtrics to the simulation and back to Qualtrics; sometimes multiple times. Most studies will proceed in the following order:
 
 `Qualtrics Survey → Simulation → Qualtrics Survey`
 
-In this case, we can either route participants through two separate Qualtrics surveys or have them come back to the same survey multiple times.
-
-A more complex study might have participants view more than one scenario, repeatedly redirecting between Qualtrics and a simulation.
+In this case, we can either route participants through two separate Qualtrics surveys or have them come back to the same survey multiple times. A more complex study might have participants view more than one scenario, repeatedly redirecting between Qualtrics and a simulation.
 
 `Qualtrics Survey → Simulation #1 → Qualtrics Survey → Simulation #2 → Qualtrics Survey`
 
@@ -29,7 +25,7 @@ Here we will demonstrate the first case and assume a single Qualtrics survey whi
 
 ## The Qualtrics Survey Flow
 
-The participant will view the Qualtrics survey twice. Make sure _Prevent Ballot Box Stuffing_ is disabled in your Survey Options so that participants may view the survey more than once.
+The participant will view the Qualtrics survey twice. Make sure _Prevent Ballot Box Stuffing_ is disabled in your Survey Options so that participants may view the survey more than once. Also disable _Save and Continue_ so that participants can be directed to the appropriate part of the survey when they return.
 
 Design a flow similar to the following, using an embedded data variable to track whether the participant has freshly opened the survey or if they have just viewed the simulation and are returning to complete follow-up questions.
 
@@ -51,24 +47,24 @@ In your Qualtrics survey, click _Customize_ on the survey end block that will se
 
 ## Controlling the Simulation
 
-You must pass at least the randomly assigned experimental condition number as a parameter to the simulation. It is reccommended that you also pass a variable to track the number of times the participant has viewed your Qualtrics survey and a variable to identify that user in your analysis. To pass parameters into the simulation from Qualtrics, pass them in the [URL query string](https://www.qualtrics.com/support/survey-platform/survey-module/survey-flow/standard-elements/passing-information-through-query-strings/).
+You must pass at least the randomly assigned experimental condition number as a parameter to the simulation. It is reccommended that you also pass a variable to track the number of times the participant has viewed your Qualtrics survey and a [variable to identify that participant](https://www.qualtrics.com/support/survey-platform/common-use-cases-rc/assigning-randomized-ids-to-respondents/#PipedText) and consolidate their data before analysis. To pass parameters into the simulation from Qualtrics, pass them in the [URL query string](https://www.qualtrics.com/support/survey-platform/survey-module/survey-flow/standard-elements/passing-information-through-query-strings/).
 
 Assign the participant's condition number to an embedded data variable in your Qualtrics survey.
 
 | ![Assign embedded data](/img/qualtrics_querystring_data.png) |
 
-At the custom end block in which the participant is redirected to the simulation, add embedded data to the end of the URL query.
+At the custom end block in which the participant is redirected to the simulation, add to the URL a `?` followed by the variable name, `=` and then the value. To insert embedded data as a value, such as the condition number we assigned, use Qualtrics' [piped text](https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/piped-text/piped-text-overview/#PipingFromAnEmbeddedDataField) syntax.
 
 | ![Assign embedded data](/img/qualtrics_querystring_endofsurvey.png) |
 | e.g. add `?condition=${e://Field/condition}` to the URL |
 
-Further parameters may follow the condition number serparated by the `&` symbol.
+Further parameters after the first should be separated by `&` instead of `?`, such as in `?condition=${e://Field/condition}&Name=${e://Field/Name}`.
 
-Any other parameters added to the URL may be used in piped text. All parameters will be passed unmodified through the simulation and back to the Qualtrics in case you wish to record them or use them in your branching logic.
+All parameters passed into the simulation will also be passed unmodified back to the Qualtrics in case you wish to record them or use them in your branching logic.
 
 ## Using Piped Text in the Scenario Script
 
-Any variables passed into the simulation via its query string can be inserted into the script much like Qualtrics piped text feature. The most common use for this feature is to reference the participant's name from within the simulation.
+Any variables passed into the simulation via its query string can be inserted into the script in a manner similar to Qualtrics' piped text. The most common use for this feature is to reference the participant's name from within the simulation.
 
 Advanced, multi-simulation studies may also use this feature to implement complex manipulations.
 
@@ -82,32 +78,26 @@ Then, insert the parameter into the script of a scene in your scenario using the
 
 For more advanced manipulations, use Qualtrics' branching logic to set your piped text.
 
-## Recieving Data in Qualtrics
+## Recieving and Recording Data in Qualtrics
 
-The simulation will pass any variables received in its URL query string back to Qualtrics in the same fashion. Additional data, such as the choices made by the participant, will also be passed back and may be recieved in Qualtrics. The following table lists examples of the additional data that the Qualtrics survey might recieve from the simulation.
+Data collected within the simulation will be passed back to Qualtrics its URL in the same fashion it is passed to the simulation. This includes data such as the features selected by the participant in the avatar customizer as well as the choices they select in any question scenes.
+
+The following table lists avatar features that can be recieved.
 
 | URL Query Parameter | Possible Values | Explanation |
 | ------------- | ------------- | ------------- |
-| skinA | Hex color code. | The avatar skin color selected by the participant. |
-| hairA | Hex color code. | The avatar hair color selected by the participant. |
-| eyeA | Hex color code. | The avatar eye color selected by the participant. |
-| outfitA | Hex color code. | The avatar outfit color selected by the participant. |
+| skin | Hex color code. | The avatar skin color selected by the participant. |
+| hair | Hex color code. | The avatar hair color selected by the participant. |
+| eye | Hex color code. | The avatar eye color selected by the participant. |
+| outfit | Hex color code. | The avatar outfit color selected by the participant. |
 | figure | Whole number. | The avatar figure selected by the participant. |
-| hair | Whole number. | The avatar hair style selected by the participant. |
+| hairstyle | Whole number. | The avatar hair style selected by the participant. |
 | eyes | Whole number. | The avatar eye style selected by the participant. |
 
-Any choice buttons the participant has selected will also be passed back to Qualtrics. These choices will be passed in the format `[Scene Name]` = `[Selection]` where the scene name is the name of the scene in which the participant was given the choice and the selection is the text on the button selected by the participant.
+To recieve and embedded data variable in Qualtrics, you must delcare an empty variable with the desired name at the top of your survey flow. For instance, to recieve all of the participants' customizations:
 
-{:refdef: style="text-align: center;"}
-![Assign embedded data](/img/qualtrics_capturedecisions.png)
-{:refdef}
+| ![Capture Query String](/img/console/qualtrics_capturequery.png) |
 
-## Passthrough Data
+Any choices the participant has selected in question scenes will also be passed back to Qualtrics. To record them, declare an empty variable at the top of your survey flow corresponding to the variable name you have listed in the question scene.
 
-The data received by the simulation and the data returned back to Qualtrics does not necessarily need to include only simulation variables. additional embedded data added to the simulation URL parameters will be passed back to Qualtrics. This allows data to be linked between multiple responses or multiple surveys. The following table lists examples of variables that may be passed through, though what is passed through is not at all restricted to this list.
-
-| URL Query Parameter | Possible Values | Explanation |
-| ------------- | ------------- | ------------- |
-| linkid | Whole number. | ID randomly assigned to the participant to connect data accross survey responses. |
-| email | Valid email address. | Email address of the participant passed through the simulation. |
-| views | Whole number. | determines if the survey is on the first or second randomized scenario |
+| ![Assign embedded data](/img/console/qualtrics_capturedecisions.png) |
