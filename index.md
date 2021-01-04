@@ -21,70 +21,78 @@ It is recommended to turn on the Avatar Customization feature located on the sam
 
 ***
 
-### Features
+## Features
 
-**Animation & Dialogue**
+### Animation & Dialogue
+
+Participants are presented with an animated story composed of video clips and interactions with legal actors such as a judge and several attorneys. The participant experiences parts of the simulation in the third person (where they are represented by an avatar) and in the first person.
 
 | <img src="./img/home/driving.png" alt="Avatar driving a car" width="100%"> | <img src="./img/home/shopping.png" alt="Avatar pointing to the salesclerk an item they want in an eyeglass store" width="100%"> |
 
-The user is presented with one of two unique scenarios featuring the customized avatar the user created -- one with the avatar driving and the other with the avatar browsing for a pair of glasses at the mall. These animated sequences provide context to the user as they illustrate  sequences of events that occur before the avatar receives a summons and is ordered to appear in court.
+One of two unique scenarios is depicted -- one in which the participant-avatar is driving home from a parking lot, and the other in which the participant-avatar is browsing for a pair of glasses at the mall. These animated sequences provide context to the participant as they illustrate a plausible series of events resulting in the participant-avatar being brought to court over accusations of either a hit-and-run or larceny.
 
 | <img src="./img/home/judge.PNG" alt="judge reminding the reader their rights" width="100%"> | <img src="./img/home/district_attorney.PNG" alt="district attorney reminding the outcomes if pleading guilty" width="100%"> |
 
-Both sequences lead up to the avatar being summoned to court and asked to either accept a plea offer and plead guilty, or reject the offer and go to trial. The user navigates the simulation by clicking the “>>” button as it appears (when the dialogue has stopped); as the simulation progresses, they learn more about the incident surrounding their avatar (e.g., whether they are innocent or guilty of the crime to which they are accused).
+Both sequences lead up to the avatar being summoned to court and given a plea offer. The participant navigates the simulation by clicking through interactions with other actors. As the simulation progresses, they learn more about the incident and their avatar's guilt status.
 
-**Avatar Customization**
+### Customizable Avatars
+
+Participants may customize an avatar to represent him or her in the simulation, providing personal depth to the story.
 
 <p align="center">
 <img src="./img/home/avatar_creation.PNG" align="center" alt="menu showing customizable aspects of the avatar" width="75%">
 </p>
 
-Using the interface shown above, users are able to customize an avatar to represent them in the simulation. Controls are provided to select figure types, eye types, or hair styles, as well as selecting a color for the hair, eyes, skin, and shirt.
+Controls are provided to select among body types, eye shapes, and hairstyles. The colors of the skin, eyes, hair, and outfit of the participant-avatar are also customizable.
 
-**Modifiable Values & Recording Responses in Qualtrics**
+### Qualtrics Integration and In-Simulation Prompts
+
+The plea bargain simulation is designed to integrate with Qualtrics. Participants may be routed from a survey to the simulation. Any data collected within the simulation, such as through multiple-choice prompts, is sent back to Qualtrics when participants complete the simulation and return to the survey.
 
 <p align="center">
 <img src="./img/home/plea_offer.PNG" align="center" alt="a meeting room where two buttons are on the center of the screen: 'Plead Guilty' and 'Reject Offer'" width="75%">
 </p>
 
-The simulation concludes by offering the user the option to either plead guilty and accept the plea offer or reject it. The option the user selects, alongside other variables scattered throughout the simulation, are then saved and passed as parameters into Qualtrics. Although it is separate from this software, the platform contains features to incorporate conditional logic in the survey flow based on variables expressed in the simulation (e.g. *guilt status*, plea offer *type*, sentencing *duration*).
+Random assignment to different simulations and manipulation of the text presented in a simulation can be done using Qualtrics' branching logic, embedded data variables, and features of the survey flow.
 
-**Researcher Console**
+### Configuration Console for Researchers
+
+An online configuration tool makes it easy for researchers to design new simulation studies without the need for special software.
 
 <p align="center">
 <img src="./img/home/research_console.png" align="center" alt="a view of the researcher console assets page" width="100%">
 </p>
 
-Another facet of the Plea Justice project is to providing a platform to allow other researchers to expand upon the existing project scope. The Researcher Console is a web interface for other researchers to write their own narratives, configure their own simulations, test their own variables, and more. To access this interface, click the *Researcher Console* tab above or visit [researcher.pleajustice.org][reseacher-console-site].
-
-### Installing
-
-> **Note**: *The current implementation of the project has the source and asset files deployed onto a server, which allows those with server access to run the simulation without downloading any of the files. Instructions on how to set up a remote web server for this project will be coming soon.*
-
-To run the simulation on your own local machine, download the source code by cloning the GitHub repository through Command Line with the `git` command,
-
-    git clone https://github.com/Plea-Justice/pleabargain-simulation.git
-
-or download and extract the zip file on the desktop site. Once the files are on your machine, create a local web server by way of navigating to the folder of the project in the terminal and typing either `python3 -m http.server` or `http-server`.
-
-* To download Git, [visit the Git downloads page][git] and find the download that corresponds to your operating system.
-* To download Python, [visit the Python homepage][python] and download the release that corresponds to your operating system.
-* To download http-server, [here is the link to the http-server README][http-server] on the NPM (Node Package Manager) webpage.
+With the console, researchers may write their own simulated narratives, manipulate variables, create prompts, access a library of animated assets and more. To access this interface, click the *Researcher Console* tab above or visit [researcher.pleajustice.org][reseacher-console-site].
 
 ***
 
-## Contribution
-
-New developers, please read through _all_ of the documentation on this site.
+## Software and Art Contributors
 
 Interested in contributing to the development of this project or collaborating on related research? You can [contact the Principal Investigator here][contact-PI] if you have any questions, comments, concerns or inquiries regarding the project or the related research.
 
-The project is written in vanilla JavaScript and the animated assets are created in _Adobe Animate_.
+New developers, please read through _all_ of the documentation on this site. The project is written in vanilla JavaScript and the animated assets are created in _Adobe Animate_. You may find further technical docmentation in the project repositories.
 
-Before contributing to the software, take a look at [how the project is made](/internal/dev/software-architecture-layout) or the [source code][github-page] and see if there is an area in need of improvements.
+### Software Licensing
+This project is distributed under [GNU GPLv3][licensing].
 
-### License
-This project is licensed using [GNU GPLv3][licensing].
+```
+    Plea Bargain Simulation
+    Copyright (C) 2021 The Plea Justice Project
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+```
 
 ***
 
