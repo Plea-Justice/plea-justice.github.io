@@ -16,7 +16,7 @@ To read these scripts and understand the meaning behind the formatting, here is 
 <ul>
   <li> <b>Bolded text</b> denotes areas where researchers may want to easily make changes.</li>
   <li> <em>Italicized text</em> denotes commentary as well as scene descriptions.</li>
-  <li> “{User}” denotes the first name of the participant. This name is typically one entered through a form on the previous page.</li>
+  <li> “@Name;” denotes the first name of the participant. This name is typically one entered through a form on the previous page.</li>
   <li> “>>” denotes a pause at a specific point of text within the simulation and would require pressing the respective button in order to progress.</li>
   <li> bullet points denotes text that appears on the screen in the dialogue box at a particular point in the simulation.</li>
 </ul>
@@ -53,7 +53,7 @@ DISTRICT COURT JUDGE:
 * Good afternoon. What is the nature of this case, Mr. Clark? >>
 
 PROSECUTOR (talking to the district court judge):
-* {User} is accused of committing larceny occurring around 12PM on the 3rd day of November in the year 2018. >>
+* @Name; is accused of committing larceny occurring around 12PM on the 3rd day of November in the year 2018. >>
 
 * In accordance with state law, larceny occurs when one steals the property of another. >>
 
@@ -70,12 +70,12 @@ PROSECUTOR (talking to the district court judge):
 *Grainy security footage shows the inside of the store from above the salesclerk’s perspective at a bird’s eye view. The avatar walks into the view of the camera, approaches the clerk’s desk, and turns around appearing to be talking to the salesclerk. The avatar obtains a pair of sunglasses from the salesclerk and puts it on after the clerk grabs the pair of glasses from under the desk. The avatar walks away from the desk to another table, slides the glasses over their head, and then checks their phone. The avatar then walks out beyond the view of the camera, disappearing from the security footage.*
 
 PROSECUTOR:
-* The security footage shows {User} wearing the missing pair of designer sunglasses and heading toward the store exit. Theft of these sunglasses is a clear larceny, which, given the value of these glasses is considered a felony offense punishable by imprisonment. >>
+* The security footage shows @Name; wearing the missing pair of designer sunglasses and heading toward the store exit. Theft of these sunglasses is a clear larceny, which, given the value of these glasses is considered a felony offense punishable by imprisonment. >>
 
 * We request a court date be set by the State as soon as it is possible. >>
 
 JUDGE:
-* {User}, you are being charged with larceny. >>
+* @Name;, you are being charged with larceny. >>
 
 * You have the right to request the appointment of counsel if you cannot afford counsel; the right to not make a statement; and the right to a jury trial, judgment, and sentencing before a district judge. >>
 
@@ -119,7 +119,7 @@ AVATAR:
 *The simulation shows the defense attorney in a room with a closed door behind him. With his greeting, it is implied that the participant is no longer in the jail cell and is in a private room.*
 
 DEFENSE ATTORNEY:
-* Hello, {User}. I am your defense attorney, Mr. Grant. Mr. Clark, the prosecutor on your case is interested in seeing whether this case could be resolved without a trial. >>
+* Hello, @Name;. I am your defense attorney, Mr. Grant. Mr. Clark, the prosecutor on your case is interested in seeing whether this case could be resolved without a trial. >>
 
 * Based on the security camera footage and testimony from the salesclerk, Mr. Clark believes that he could win if this case goes to trial. >>
 

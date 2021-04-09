@@ -101,3 +101,25 @@ To recieve and embedded data variable in Qualtrics, you must delcare an empty va
 Any choices the participant has selected in question scenes will also be passed back to Qualtrics. To record them, declare an empty variable at the top of your survey flow corresponding to the variable name you have listed in the question scene.
 
 | ![Assign embedded data](/img/console/qualtrics_capturedecisions.png) |
+
+
+## Reading the Data
+
+Since all data from the simulation is routed to and then stored in Qualtrics,
+there are no additional data files to collect. The `*.csv` downloaded from
+Qualtrics will have a column for any data collected from the URL and stored as
+embedded data.
+
+One quirk of having the participant leave Qualtrics to complete a task before
+returning to a survey is that each participant will have more than one row in
+the dataset across which their survey responses are spread.
+
+As recommended above, it may be necessary to assign a random ID to each
+participant on their first survey view, pass that to the simulation, and collect
+the ID when they return to the survey so that the two records in the Qualtrics
+dataset have a matching field on which they can be joined.
+
+An [R script](https://github.com/Plea-Justice/scripts/tree/main/link-qualtrics-responses)
+is provided to demonstrate how to merge the responses into one row per
+participant. A similar script is also
+[available in Python](https://github.com/Plea-Justice/scripts/tree/main/clean-data).

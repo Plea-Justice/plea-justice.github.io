@@ -18,7 +18,7 @@ To read these scripts and understand the meaning behind the formatting, here is 
 <ul>
   <li> <b>Bolded text</b> denotes areas where researchers may want to easily make changes.</li>
   <li> <em>Italicized text</em> denotes commentary as well as scene descriptions.</li>
-  <li> “{User}” denotes the first name of the participant. This name is typically one entered through a form on the previous page.</li>
+  <li> “@Name;” denotes the first name of the participant. This name is typically one entered through a form on the previous page.</li>
   <li> “>>” denotes a pause at a specific point of text within the simulation and would require pressing the respective button in order to progress.</li>
   <li> bullet points denotes text that appears on the screen in the dialogue box at a particular point in the simulation.</li>
 </ul>
@@ -56,19 +56,19 @@ DISTRICT COURT JUDGE:
 * Good afternoon. What is the nature of this case, Mr. Clark? >>
 
 PROSECUTOR:
-* {User} is accused of being involved in a hit-and-run occurring around 6PM on the 26th day of March in the year 2019. >>
+* @Name; is accused of being involved in a hit-and-run occurring around 6PM on the 26th day of March in the year 2019. >>
 
 * In accordance with state law, a hit-and-run occurs when the operator of a motor vehicle damages public or private property, and the operator fails to report it. >>
 
 * According to the information provided in the police report, there was property damage exceeding $1,000, which resulted from a collision in a store parking lot. The victim’s car was legally parked within the lines of the space. >>
 
-* There is security footage provided by the owner of the business where the accident occurred that shows a car with a plate number registered {User} appearing to come in contact with the victim’s car. >>
+* There is security footage provided by the owner of the business where the accident occurred that shows a car with a plate number registered @Name; appearing to come in contact with the victim’s car. >>
 
 *Grainy security footage shows the avatar’s car pull out of the parking lot from an almost-bird’s-eye-view, pause for a short moment, and then driving away out of the view of the camera. The victim’s car could have had contact with another car in the parking lot as it was pulling out.*
 
 * Although the impact might look minor, according to a quote from the victim’s auto body repair shop, the damage to the body was significant. >>
 
-* Thus, according to statute, failure of {User} to stop and check the status of the other vehicle constitutes a hit-and-run. The security footage appears to show {User}’s car striking a vehicle and then failing to check for or report damages. >>
+* Thus, according to statute, failure of @Name; to stop and check the status of the other vehicle constitutes a hit-and-run. The security footage appears to show @Name;’s car striking a vehicle and then failing to check for or report damages. >>
 
 * This is a textbook hit and run, which is considered a serious misdemeanor punishable by significant fines and/or time in jail. >>
 
@@ -76,7 +76,7 @@ PROSECUTOR:
 
 
 DISTRICT COURT JUDGE:
-* {User}, you are being charged with leaving the scene of an accident involving property damage. >>
+* @Name;, you are being charged with leaving the scene of an accident involving property damage. >>
 
 * You have the right to request the appointment of counsel if you cannot afford counsel; the right to not make a statement; and the right to a jury trial, judgment, and sentencing before a district judge. >>
 
@@ -150,7 +150,7 @@ AVATAR:
 *The simulation shows a defense attorney in a room with a closed door behind him. With his greeting, it is implied that the participant is no longer in the jail cell and is in a private room.*
 
 DEFENSE ATTORNEY:
-* Hello, {User}. I am your defense attorney, Mr. Grant. Mr. Clark, the prosecutor on your case is interested in seeing whether this case could be resolved without a trial. >>
+* Hello, @Name;. I am your defense attorney, Mr. Grant. Mr. Clark, the prosecutor on your case is interested in seeing whether this case could be resolved without a trial. >>
 
 * Based on the security camera footage and the damage to the victim’s car, I would estimate that you have a  **20/50/80** percent chance of being convicted if this case goes to trial. >>
 
@@ -207,7 +207,7 @@ DISTRICT COURT JUDGE:
 * Good afternoon. What is the nature of this case, Mr. Clark? >>
 
 PROSECUTOR (talking to the district court judge):
-* {User} is accused of committing larceny occurring around 6 PM on the 1st day of July in the year 2019. >>
+* @Name; is accused of committing larceny occurring around 6 PM on the 1st day of July in the year 2019. >>
 
 * In accordance with state law, larceny occurs when one steals the property of another. >>
 
@@ -224,12 +224,12 @@ PROSECUTOR (talking to the district court judge):
 *Grainy security footage shows the inside of the store from above the salesclerk’s perspective at a bird’s eye view. The avatar walks into the view of the camera, approaches the clerk’s desk, and turns around appearing to be talking to the salesclerk. The avatar obtains a pair of sunglasses from the salesclerk and puts it on after the clerk grabs the pair of glasses from under the desk. The avatar walks away from the desk to another table, slides the glasses over their head, and then checks their phone. The avatar then walks out beyond the view of the camera, disappearing from the security footage.*
 
 PROSECUTOR:
-* The security footage shows {User} wearing the missing pair of designer sunglasses and heading toward the store exit. Theft of these sunglasses is a clear larceny, which, given the value of these glasses is considered a felony offense punishable by imprisonment. >>
+* The security footage shows @Name; wearing the missing pair of designer sunglasses and heading toward the store exit. Theft of these sunglasses is a clear larceny, which, given the value of these glasses is considered a felony offense punishable by imprisonment. >>
 
 * We request a court date be set by the State as soon as it is possible.>>
 
 JUDGE:
-* {User}, you are being charged with larceny. >>
+* @Name;, you are being charged with larceny. >>
 
 * You have the right to request the appointment of counsel if you cannot afford counsel; the right to not make a statement; and the right to a jury trial, judgment, and sentencing before a district judge. >>
 
@@ -271,7 +271,7 @@ AVATAR:
 *The simulation shows the defense attorney in a room with a closed door behind him. With his greeting, it is implied that the participant is no longer in the jail cell and is in a private room.*
 
 DEFENSE ATTORNEY:
-* Hello, {User}. I am your defense attorney, Mr. Grant. Mr. Clark, the prosecutor on your case is interested in seeing whether this case could be resolved without a trial. >>
+* Hello, @Name;. I am your defense attorney, Mr. Grant. Mr. Clark, the prosecutor on your case is interested in seeing whether this case could be resolved without a trial. >>
 
 * Based on the security camera footage and testimony from the salesclerk, I would estimate that you have a  **20/50/80** percent chance of being convicted if this case goes to trial. >>
 
