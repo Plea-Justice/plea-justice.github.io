@@ -1,15 +1,15 @@
 ---
 layout: page
-title: Shadow of the Trial Study
+title: Shadow-of-the-Trial (NSF I)
 permalink: /scripts/shadow-of-the-trial-study
 nav_order: 2
 parent: Example Scripts
 ---
-# Shadow of the Trial Study
+# Shadow of the Trial (NSF I)
 
-This page contains the script dialogue of scenario 1, the hit-and-run scenario, and the script dialogue of scenario 2, the theft scenario. Users would start from the beginning of either scenario 1 or 2 once they finish creating their avatar from the avatar customization page. The main distinction of this script is that it contains variable *plea discounts* (in forms of either 6/12/18 months) in the plea bargain offer and a *conviction probability* (in forms of either 20/50/80%) alongside the participant's *guilt status* (trivially as either innocent/guilty).
+This page contains the script dialogue of scenario 1, the hit-and-run scenario, and the script dialogue of scenario 2, the theft scenario. Users would start from the beginning of either scenario 1 or 2 once they finish creating their avatar from the avatar customization page. This script contains variable *plea discounts* (6/12/18 months) as part of the plea offer and varying *conviction probability* (in forms of either 20/50/80%) alongside the participant's *guilt status* (as either innocent/guilty).
 
-To jump to scenario 2, click [here](#simulation-2---theft-scenario).
+To jump to Scenario 2, click [here](#simulation-2---Theft/Larceny Scenario).
 
 <details><summary><b><p style="font-size:18px"><u>> Key/Legend</u></p></b></summary>
 
@@ -18,7 +18,7 @@ To read these scripts and understand the meaning behind the formatting, here is 
 <ul>
   <li> <b>Bolded text</b> denotes areas where researchers may want to easily make changes.</li>
   <li> <em>Italicized text</em> denotes commentary as well as scene descriptions.</li>
-  <li> “@Name;” denotes the first name of the participant. This name is typically one entered through a form on the previous page.</li>
+  <li> “@U” denotes the first name of the participant. This name is typically one entered through a form on the previous page.</li>
   <li> “>>” denotes a pause at a specific point of text within the simulation and would require pressing the respective button in order to progress.</li>
   <li> bullet points denotes text that appears on the screen in the dialogue box at a particular point in the simulation.</li>
 </ul>
@@ -29,7 +29,7 @@ To read these scripts and understand the meaning behind the formatting, here is 
 
 *Upon finishing customizing their avatar on the avatar customization screen and pressing the “Next” button, the user will be presented with a mix of one or both of the following simulations:*
 
-## **Simulation 1 - Hit & Run**
+## **Scenario 1 - Hit & Run**
 
 *The simulation opens with a black background and the following white text on the screen:*
 >At 6 PM
@@ -56,27 +56,30 @@ DISTRICT COURT JUDGE:
 * Good afternoon. What is the nature of this case, Mr. Clark? >>
 
 PROSECUTOR:
-* @Name; is accused of being involved in a hit-and-run occurring around 6PM on the 26th day of March in the year 2019. >>
+* @U is accused of being involved in a hit-and-run occurring around 6PM on the 26th day of March in the year 2019. >>
 
 * In accordance with state law, a hit-and-run occurs when the operator of a motor vehicle damages public or private property, and the operator fails to report it. >>
 
-* According to the information provided in the police report, there was property damage exceeding $1,000, which resulted from a collision in a store parking lot. The victim’s car was legally parked within the lines of the space. >>
+* According to the information provided in the police report, there was property damage exceeding $1,000, which resulted from a collision in a store parking lot. >>
+*
+* The victim’s car was legally parked within the lines of the space. >>
 
-* There is security footage provided by the owner of the business where the accident occurred that shows a car with a plate number registered @Name; appearing to come in contact with the victim’s car. >>
+* There is security footage provided by the owner of the business where the accident occurred that shows a car with a plate number registered @U appearing to come in contact with the victim’s car. >>
 
 *Grainy security footage shows the avatar’s car pull out of the parking lot from an almost-bird’s-eye-view, pause for a short moment, and then driving away out of the view of the camera. The victim’s car could have had contact with another car in the parking lot as it was pulling out.*
 
 * Although the impact might look minor, according to a quote from the victim’s auto body repair shop, the damage to the body was significant. >>
 
-* Thus, according to statute, failure of @Name; to stop and check the status of the other vehicle constitutes a hit-and-run. The security footage appears to show @Name;’s car striking a vehicle and then failing to check for or report damages. >>
+* Thus, according to statute, failure of @U to stop and check the status of the other vehicle constitutes a hit-and-run. >> 
+
+* The security footage appears to show @U’s car striking a vehicle and then failing to check for or report damages. >>
 
 * This is a textbook hit and run, which is considered a serious misdemeanor punishable by significant fines and/or time in jail. >>
 
 * We request a court date be set by the State as soon as it is possible. >>
 
-
 DISTRICT COURT JUDGE:
-* @Name;, you are being charged with leaving the scene of an accident involving property damage. >>
+* @U, you are being charged with leaving the scene of an accident involving property damage. >>
 
 * You have the right to request the appointment of counsel if you cannot afford counsel; the right to not make a statement; and the right to a jury trial, judgment, and sentencing before a district judge. >>
 
@@ -150,7 +153,7 @@ AVATAR:
 *The simulation shows a defense attorney in a room with a closed door behind him. With his greeting, it is implied that the participant is no longer in the jail cell and is in a private room.*
 
 DEFENSE ATTORNEY:
-* Hello, @Name;. I am your defense attorney, Mr. Grant. Mr. Clark, the prosecutor on your case is interested in seeing whether this case could be resolved without a trial. >>
+* Hello, @U, I am your defense attorney, Mr. Grant. Mr. Clark, the prosecutor on your case is interested in seeing whether this case could be resolved without a trial. >>
 
 * Based on the security camera footage and the damage to the victim’s car, I would estimate that you have a  **20/50/80** percent chance of being convicted if this case goes to trial. >>
 
@@ -158,7 +161,9 @@ DEFENSE ATTORNEY:
 
 * If you plead guilty now, saving the State the resources needed for a formal trial, Mr. Clark is prepared to recommend that the district court judge sentence you to **6/12/18** months rather than 24 months in jail. >>
 
-* If you accept this plea offer, you will be asked to sign this form, which includes the recommendations for lower sentencing that I just described. If you reject this plea offer and take your case to trial, Mr. Clark will pursue the maximum jail sentence of 24 months. >>
+* If you accept this plea offer, you will be asked to sign this form, which includes the recommendations for lower sentencing that I just described. >>
+
+* If you reject this plea offer and take your case to trial, Mr. Clark will pursue the maximum jail sentence of 24 months. >>
 
 * Your signature will indicate your agreement to plead guilty and forgo your right to a trial. >>
 
@@ -178,7 +183,7 @@ DIALOGUE:
 
 
 
-## **Simulation 2 - Theft Scenario**
+## **Scenario 2 - Theft/Larceny Scenario**
 
 *The simulation opens with a black background and the following white text on the screen:*
 >At 6 PM
@@ -207,7 +212,7 @@ DISTRICT COURT JUDGE:
 * Good afternoon. What is the nature of this case, Mr. Clark? >>
 
 PROSECUTOR (talking to the district court judge):
-* @Name; is accused of committing larceny occurring around 6 PM on the 1st day of July in the year 2019. >>
+* @U is accused of committing larceny occurring around 6 PM on the 1st day of July in the year 2019. >>
 
 * In accordance with state law, larceny occurs when one steals the property of another. >>
 
@@ -224,12 +229,14 @@ PROSECUTOR (talking to the district court judge):
 *Grainy security footage shows the inside of the store from above the salesclerk’s perspective at a bird’s eye view. The avatar walks into the view of the camera, approaches the clerk’s desk, and turns around appearing to be talking to the salesclerk. The avatar obtains a pair of sunglasses from the salesclerk and puts it on after the clerk grabs the pair of glasses from under the desk. The avatar walks away from the desk to another table, slides the glasses over their head, and then checks their phone. The avatar then walks out beyond the view of the camera, disappearing from the security footage.*
 
 PROSECUTOR:
-* The security footage shows @Name; wearing the missing pair of designer sunglasses and heading toward the store exit. Theft of these sunglasses is a clear larceny, which, given the value of these glasses is considered a felony offense punishable by imprisonment. >>
+* The security footage shows @U wearing the missing pair of designer sunglasses and heading toward the store exit. >> 
+
+* Theft of these sunglasses is a clear larceny, which, given the value of these glasses is considered a felony offense punishable by imprisonment. >>
 
 * We request a court date be set by the State as soon as it is possible.>>
 
 JUDGE:
-* @Name;, you are being charged with larceny. >>
+* @U, you are being charged with larceny. >>
 
 * You have the right to request the appointment of counsel if you cannot afford counsel; the right to not make a statement; and the right to a jury trial, judgment, and sentencing before a district judge. >>
 
@@ -271,7 +278,7 @@ AVATAR:
 *The simulation shows the defense attorney in a room with a closed door behind him. With his greeting, it is implied that the participant is no longer in the jail cell and is in a private room.*
 
 DEFENSE ATTORNEY:
-* Hello, @Name;. I am your defense attorney, Mr. Grant. Mr. Clark, the prosecutor on your case is interested in seeing whether this case could be resolved without a trial. >>
+* Hello, @U, I am your defense attorney, Mr. Grant. Mr. Clark, the prosecutor on your case is interested in seeing whether this case could be resolved without a trial. >>
 
 * Based on the security camera footage and testimony from the salesclerk, I would estimate that you have a  **20/50/80** percent chance of being convicted if this case goes to trial. >>
 
@@ -279,7 +286,9 @@ DEFENSE ATTORNEY:
 
 * If you plead guilty now, saving the State the resources needed for a formal trial, Mr. Clark is prepared to recommend that the district court judge sentence you to **6/12/18** months rather than 24 months in jail. >>
 
-* If you accept this plea offer, you will be asked to sign this form, which includes the recommendations for lower sentencing that I just described. If you reject this plea offer and take your case to trial, Mr. Clark will pursue the maximum jail sentence of 24 months. >>
+* If you accept this plea offer, you will be asked to sign this form, which includes the recommendations for lower sentencing that I just described. >>
+
+* If you reject this plea offer and take your case to trial, Mr. Clark will pursue the maximum jail sentence of 24 months. >>
 
 * Your signature will indicate your agreement to plead guilty and forgo your right to a trial. >>
 
@@ -296,3 +305,11 @@ DIALOGUE:
 >Reject the offer and risk a more severe sentence if found guilty at trial (24 months in jail)
 
 *The participant must click one of the buttons and respond with Plead Guilty or Reject Offer in order to proceed in the study to the post-simulation survey questions.*
+
+***
+
+## Related Publication
+* 08/2021 - [Law and Human Behavior][article]: Guilt status influences plea outcomes beyond the shadow-of-the-trial in an interactive simulation of legal procedures
+
+[article]: https://psycnet.apa.org/record/2021-90818-001
+
