@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Defense Attorney Recommendation Study
+title: Attorney Advice (Study 1)
 permalink: /scripts/defense-attorney-recommendation-study
 nav_order: 4
 parent: Example Scripts
