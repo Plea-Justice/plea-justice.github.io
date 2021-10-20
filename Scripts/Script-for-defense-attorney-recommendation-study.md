@@ -70,7 +70,7 @@ PROSECUTOR (talking to the district court judge):
 *Grainy security footage shows the inside of the store from above the salesclerk’s perspective at a bird’s eye view. The avatar walks into the view of the camera, approaches the clerk’s desk, and turns around appearing to be talking to the salesclerk. The avatar obtains a pair of sunglasses from the salesclerk and puts it on after the clerk grabs the pair of glasses from under the desk. The avatar walks away from the desk to another table, slides the glasses over their head, and then checks their phone. The avatar then walks out beyond the view of the camera, disappearing from the security footage.*
 
 PROSECUTOR:
-* The security footage shows @Name; wearing the missing pair of designer sunglasses and heading toward the store exit. >> 
+* The security footage shows @U wearing the missing pair of designer sunglasses and heading toward the store exit. >> 
 
 * Theft of these sunglasses is a clear larceny, which, given the value of these glasses is considered a felony offense punishable by imprisonment. >>
 
