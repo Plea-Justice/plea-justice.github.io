@@ -7,16 +7,16 @@ nav_order: 1
 ---
 
 # The Plea Justice Project
-The Plea Justice Project provides an interactive simulation of the plea bargaining processes, offering an alternative to existing paradigms in plea decision-making research such as vignettes and high-stakes deceptions.
+The Plea Justice Project provides an interactive simulation of legal procedures (it was originally designed to simulate the plea bargaining process specifcally), offering an alternative to existing paradigms in legal decision-making research (e.g., vignettes/narratives, high-stakes deception studies; Redlich et al., 2017; Wilford et al., 2019).
 
-Participants are presented with one of two animated scenarios in which they are represented by a customizable avatar. From there, the story can be developed with characters representing a prosecutor or the participant's defense attorney.
+Participants are presented with animated scenarios in which they are represented by a customizable avatar. These scenarios incorporate animated clips, dynamic actors (i.e., law enforcment officer, judge, attorneys) and a variety of backgrounds to increase the participant's immersion in the study. 
 
-The plea simulation integrates with the Qualtrics survey platform and features a graphical configuration tool for researchers.
+This simulation can be integrated with the Qualtrics survey platform and features a graphical configuration tool for researchers.
 <details>
 <summary><a href="https://demo.pleajustice.org">Click here for a demo</a> of the plea simulation.</summary>
-The link will bring you to the <i>Researcher's Preview</i> page on which you may select one of the two existing scenarios (<i>Hit and Run</i> or <i>Shoplifting</i>), variables such as the participant's first name, and other configuration options. The right-hand side of the page provides a sample of the different experimental conditions a participant could be assigned to and the variables manipulated: guilt status, sentencing duration (if found guilty), and the probability of conviction.
+The link will bring you to the <i>Researcher's Preview</i> page on which you may select one of the two existing scenarios (<i>Hit and Run</i> or <i>Shoplifting</i>), variables such as the participant's first name, and other configuration options. The right-hand side of the page provides a sample of the different experimental conditions a participant could be assigned to and the variables manipulated: guilt status, sentencing duration (if found guilty), and the probability of conviction. This demo (and its experimental parameters) represents one of the first published studies using the simulation (Wilford, Sutherland et al., 2021).
 
-It is recommended to turn on the Avatar Customization feature located on the same Preview Simulation page for the full immersive experience.
+It is recommended to turn on the "Avatar Customization" feature located on the same Preview Simulation page for the full immersive experience.
 </details>
 
 ***
@@ -25,15 +25,15 @@ It is recommended to turn on the Avatar Customization feature located on the sam
 
 ### Animation & Dialogue
 
-Participants are presented with an animated story composed of video clips and interactions with legal actors such as a judge and several attorneys. The participant experiences parts of the simulation in the third person (where they are represented by an avatar) and in the first person.
+Participants are presented with a dynamic story composed of video clips and dialogue with legal actors. The participant experiences parts of the simulation in the third person (in which they are represented by an avatar) and in the first person.
 
 | <img src="./img/home/driving.png" alt="Avatar driving a car" width="100%"> | <img src="./img/home/shopping.png" alt="Avatar pointing to the salesclerk an item they want in an eyeglass store" width="100%"> |
 
-One of two unique scenarios is depicted -- one in which the participant-avatar is driving home from a parking lot, and the other in which the participant-avatar is browsing for a pair of glasses at the mall. These animated sequences provide context to the participant as they illustrate a plausible series of events resulting in the participant-avatar being brought to court over accusations of either a hit-and-run or larceny.
+One of two unique scenarios is depicted -- one in which the participant-avatar is leaving a parking lot, and the other in which the participant-avatar is browsing for a pair of glasses at the mall. These animated sequences provide context to the participant as they illustrate a plausible series of events resulting in the participant-avatar being brought to court over accusations of either a hit-and-run or larceny (though, other scenarios are in development)
 
 | <img src="./img/home/judge.PNG" alt="judge reminding the reader their rights" width="100%"> | <img src="./img/home/district_attorney.PNG" alt="district attorney reminding the outcomes if pleading guilty" width="100%"> |
 
-Both sequences lead up to the avatar being summoned to court and given a plea offer. The participant navigates the simulation by clicking through interactions with other actors. As the simulation progresses, they learn more about the incident and their avatar's guilt status.
+Both sequences lead up to the participant-avatar being summoned to court. For plea decision-making studies, these events culminate with the participant-avatar being offered a plea deal (typically by a defense attorney). The participant navigates the simulation by clicking through interactions with other actors. As the simulation progresses, they learn more about the incident and the context of the accusation (e.g., their guilt status).
 
 ### Customizable Avatars
 
@@ -47,7 +47,7 @@ Controls are provided to select among body types, eye shapes, and hairstyles. Th
 
 ### Qualtrics Integration and In-Simulation Prompts
 
-The plea bargain simulation is designed to integrate with Qualtrics. Participants may be routed from a survey to the simulation. Any data collected within the simulation, such as through multiple-choice prompts, is sent back to Qualtrics when participants complete the simulation and return to the survey.
+This simulation is designed for integration with Qualtrics. Participants may be routed from a survey to the simulation. Any data collected within the simulation (via "Question"s), is sent to Qualtrics when participants complete the simulation and are directed to a Qualtrics survey.
 
 <p align="center">
 <img src="./img/home/plea_offer.PNG" align="center" alt="a meeting room where two buttons are on the center of the screen: 'Plead Guilty' and 'Reject Offer'" width="75%">
@@ -96,9 +96,9 @@ This project is distributed under [GNU GPLv3][licensing].
 
 ***
 
-## Related Articles
-* 06/04/2018 - [To Plead or Not to Plead][article-1]: Psychology and Art Faculty Team Up with Students on Plea Bargain Research Tool
-* 02/26/2019 - [Why Do Innocent People Plead Guilty?][article-2]: UMass Lowell Researcher Wins NSF Grant to Find Answers
+## Related Publications
+* 08/2021 - [Law and Human Behavior][article-1]: Guilt status influences plea outcomes beyond the shadow-of-the-trial in an interactive simulation of legal procedures
+* 06/2021 - [Journal of Experimental Psychology: Applied][article-2]: Innocence in the shadow of COVID-19: Plea decision-making during a pandemic
 
 <!--- below are 1. comments that address long-term changes that need to be made to this page and 2. reference variables that represent external links -->
 
@@ -114,5 +114,5 @@ This project is distributed under [GNU GPLv3][licensing].
 [contact-PI]: https://mikowilford.wixsite.com/website-1
 [github-page]: https://github.com/Plea-Justice/pleabargain-simulation
 [licensing]: https://github.com/Plea-Justice/pleabargain-simulation/blob/master/LICENSE.txt
-[article-1]: https://www.uml.edu/news/stories/2018/pleabargains.aspx
-[article-2]: https://www.uml.edu/news/press-releases/2019/wilfordresearch022619.aspx
+[article-1]: https://psycnet.apa.org/record/2021-90818-001
+[article-2]: https://psycnet.apa.org/record/2021-55856-001
