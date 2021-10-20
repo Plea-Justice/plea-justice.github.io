@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Simulation versus Vignette Study
-permalink: /scripts/simulation-versus-vignette-study
+title: Simulation versus Vignette
+permalink: /scripts/simulation-versus-vignette
 nav_order: 1
 parent: Example Scripts
 ---
-# Simulation versus Vignette Study
+# Simulation versus Vignette
 
 This page contains the script dialogue of scenario 1, the hit-and-run scenario, and the script dialogue of scenario 2, the theft scenario. Users would start from the beginning of either scenario 1 or 2 once they finish creating their avatar from the avatar customization page. One of the scenarios would be presented within the simulation and the other would be presented as a vignette (resembling the script depicted here).
 
