@@ -7,6 +7,8 @@ parent: Example Scripts
 ---
 # COVID Study
 
+<details><summary><b><p style="font-size:18px"><u>> Key/Legend</u></p></b></summary>
+
 To read these scripts and understand the meaning behind the formatting, here is a guide to how they are formatted.
 
 <ul>
@@ -14,7 +16,7 @@ To read these scripts and understand the meaning behind the formatting, here is 
   <li> <em>Italicized text</em> denotes commentary as well as scene descriptions.</li>
   <li> “@U” denotes the first name of the participant. This name is typically one entered through a form on the previous page.</li>
   <li> “>>” denotes a pause at a specific point of text within the simulation and would require pressing the respective button in order to progress.</li>
-  <li> bullet points denote text that appears on the screen in the dialogue box at a particular point in the simulation.</li>
+  <li> bullet points denotes text that appears on the screen in the dialogue box at a particular point in the simulation.</li>
 </ul>
 
 </details>
