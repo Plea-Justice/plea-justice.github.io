@@ -14,7 +14,7 @@ Below is the script for a study examining the impact of defense attorney recomme
 To read these scripts and understand the meaning behind the formatting, here is a guide to how they are formatted.
 
 <ul>
-  <li> <b>Bolded text</b> denotes areas where researchers may want to easily make changes.</li>
+  <li> <b>Bolded text</b> denotes areas where researchers might be particularly interested in making changes.</li>
   <li> <em>Italicized text</em> denotes commentary as well as scene descriptions.</li>
   <li> “@U” denotes the first name of the participant. This name is typically one entered through a form on the previous page.</li>
   <li> “>>” denotes a pause at a specific point of text within the simulation and would require pressing the respective button in order to progress.</li>
@@ -125,11 +125,11 @@ DEFENSE ATTORNEY:
 
 * Based on the security camera footage and testimony from the salesclerk, Mr. Clark believes that he could win if this case goes to trial. >>
 
-* If this case does go to trial, Mr. Clark will be seeking the maximum penalty of 12 months in jail. >>
+* If this case does go to trial, Mr. Clark will be seeking the maximum penalty of **12 months in jail**. >>
 
-* If you plead guilty now, saving the State the resources needed for a formal trial, Mr. Clark is prepared to recommend that the district court judge sentence you to 1 month of jail rather than 12 months in jail. >>
+* If you plead guilty now, saving the State the resources needed for a formal trial, Mr. Clark is prepared to recommend that the district court judge sentence you to **1 month of jail rather than 12 months in jail**. >>
 
-* If you accept this plea offer, you will be asked to sign this form, which includes the recommendations for lower sentencing that I just described. If you reject this plea offer and take your case to trial, Mr. Clark will pursue the maximum jail sentence of 12 months. >>
+* If you accept this plea offer, you will be asked to sign this form, which includes the recommendations for lower sentencing that I just described. If you reject this plea offer and take your case to trial, Mr. Clark will pursue the maximum **jail sentence of 12 months**. >>
 
 * Really, it boils down to this: you never know if the prosecutor will come back with another offer or what that offer will look like. Sure, they could always come back with a better offer. Or they could decide not to bargain with you anymore, come back with the same offer, or offer a less desirable plea deal than this one. It really could go in any direction. But this is your decision to make. But, I think you should [**accept this offer / reject this offer**]. >>
 
@@ -143,8 +143,8 @@ BUTTONS:
 
 DIALOGUE:
 
->Plead guilty in exchange for a lower sentence (1 month in jail)
+>Plead guilty in exchange for a lower sentence (**1 month in jail**)
 >
->Reject the offer and risk a more severe sentence if found guilty at trial (12 months in jail)
+>Reject the offer and risk a more severe sentence if found guilty at trial (**12 months in jail**)
 
 *The participant must click one of the buttons and respond with Plead Guilty or Reject Offer in order to proceed in the study to the post-simulation survey questions.*
