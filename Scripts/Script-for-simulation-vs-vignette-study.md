@@ -154,11 +154,11 @@ DEFENSE ATTORNEY:
 
 * Based on the security camera footage and the damage to the victim’s car, Mr. Clark believes that he could win this case if it goes to trial. >>
 
-* If this case does go to trial, Mr. Clark will be seeking the maximum penalty of 12 months in jail. >>
+* If this case does go to trial, Mr. Clark will be seeking the maximum penalty of <b>12 months in jail</b>. >>
 
-* If you plead guilty now, saving the State the resources needed for a formal trial, Mr. Clark is prepared to recommend that the district court judge sentence you to 1 month in jail, rather than 12 months in jail. >>
+* If you plead guilty now, saving the State the resources needed for a formal trial, Mr. Clark is prepared to recommend that the district court judge sentence you to <b>1 month in jail</b>, rather than <b>12 months in jail</b>. >>
 
-* If you accept this plea offer, you will be asked to sign this form, which includes the recommendations for the lower sentencing that I just described. If you reject this plea offer and take your case to trial, Mr. Clark will pursue the maximum jail sentence of 12 months. >>
+* If you accept this plea offer, you will be asked to sign this form, which includes the recommendations for the lower sentencing that I just described. If you reject this plea offer and take your case to trial, Mr. Clark will pursue the maximum <b>jail sentence of 12 months</b>**. >>
 
 * Your signature will indicate your agreement to plead guilty and forgo your right to a trial. >>
 
@@ -170,9 +170,9 @@ BUTTONS:
 
 DIALOGUE:
 
-> Plead guilty in exchange for a lower sentence (1 month in jail)
+> Plead guilty in exchange for a lower sentence (<b>1 month in jail</b>)
 >
-> Reject the offer and risk a more severe sentence if found guilty at trial (12 months in jail)
+> Reject the offer and risk a more severe sentence if found guilty at trial (<b>12 months in jail</b>)
 
 *The participant must click one of the buttons and respond with Plead Guilty or Reject Offer in order to proceed in the study to the post-simulation survey questions.*
 
@@ -276,11 +276,11 @@ DEFENSE ATTORNEY:
 
 * Based on the security camera footage and testimony from the salesclerk, Mr. Clark believes that he could win if this case goes to trial. >>
 
-* If this case does go to trial, Mr. Clark will be seeking the maximum penalty of 12 months in jail. >>
+* If this case does go to trial, Mr. Clark will be seeking the maximum penalty of <b>12 months in jail</b>. >>
 
-* If you plead guilty now, saving the State the resources needed for a formal trial, Mr. Clark is prepared to recommend that the district court judge sentence you to 1 month of jail rather than 12 months in jail. >>
+* If you plead guilty now, saving the State the resources needed for a formal trial, Mr. Clark is prepared to recommend that the district court judge sentence you to <b>1 month of jail</b> rather than <b>12 months in jail</b>. >>
 
-* If you accept this plea offer, you will be asked to sign this form, which includes the recommendations for lower sentencing that I just described. If you reject this plea offer and take your case to trial, Mr. Clark will pursue the maximum jail sentence of 12 months. >>
+* If you accept this plea offer, you will be asked to sign this form, which includes the recommendations for lower sentencing that I just described. If you reject this plea offer and take your case to trial, Mr. Clark will pursue the maximum <b>jail sentence of 12 months</b>. >>
 
 * Your signature will indicate your agreement to plead guilty and forgo your right to a trial. >>
 
@@ -292,8 +292,8 @@ BUTTONS:
 
 DIALOGUE:
 
->Plead guilty in exchange for a lower sentence (1 month in jail)
+>Plead guilty in exchange for a lower sentence (<b>1 month in jail</b>)
 >
->Reject the offer and risk a more severe sentence if found guilty at trial (12 months in jail)
+>Reject the offer and risk a more severe sentence if found guilty at trial (<b>12 months in jail</b>)
 
 *The participant must click one of the buttons and respond with Plead Guilty or Reject Offer in order to proceed in the study to the post-simulation survey questions.*
