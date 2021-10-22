@@ -7,6 +7,8 @@ parent: Example Scripts
 ---
 # COVID Study
 
+Below is the script for a study examining the impact of guilt status and COVID information on plea decision making. 
+
 <details><summary><b><p style="font-size:18px"><u>> Key/Legend</u></p></b></summary>
 
 To read these scripts and understand the meaning behind the formatting, here is a guide to how they are formatted.
