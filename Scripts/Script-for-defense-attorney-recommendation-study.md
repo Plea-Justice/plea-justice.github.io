@@ -7,7 +7,7 @@ parent: Example Scripts
 ---
 # Attorney Advice (Study 1)
 
-Below is the script for a study examining the impact of defense attorney recommendations on plea decision-making. 
+Below is the script for a study examining the impact of guilt status and defense attorney recommendation on plea decision-making. 
 
 <details><summary><b><p style="font-size:18px"><u>> Key/Legend</u></p></b></summary>
 
