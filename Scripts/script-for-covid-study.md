@@ -10,7 +10,7 @@ parent: Example Scripts
 To read these scripts and understand the meaning behind the formatting, here is a guide to how they are formatted.
 
 <ul>
-  <li> <b>Bolded text</b> denotes areas where researchers may want to easily make changes.</li>
+  <li> <b>Bolded text</b> denotes areas where researchers might be particularly interested in making changes.</li>
   <li> <em>Italicized text</em> denotes commentary as well as scene descriptions.</li>
   <li> “@U” denotes the first name of the participant. This name is typically one entered through a form on the previous page.</li>
   <li> “>>” denotes a pause at a specific point of text within the simulation and would require pressing the respective button in order to progress.</li>
@@ -117,11 +117,11 @@ DEFENSE ATTORNEY:
 
 * Based on the security camera footage and testimony from the salesclerk, Mr. Clark believes that he could win if this case goes to trial. >>
 
-* If this case does go to trial, Mr. Clark will be seeking the maximum penalty of <b>9 months in jail</b>. >>
+* If this case does go to trial, Mr. Clark will be seeking the maximum penalty of <b>**9 months in jail**</b>. >>
 
-* If you plead guilty now, saving the State the resources needed for a formal trial, Mr. Clark is prepared to recommend that the district court judge sentence you to <b>6 months of probation rather than 9 months in jail</b>. >>
+* If you plead guilty now, saving the State the resources needed for a formal trial, Mr. Clark is prepared to recommend that the district court judge sentence you to <b>**6 months of probation rather than 9 months in jail**</b>. >>
 
-* If you reject the plea offer, because of your prior conviction, <b>the prosecutor will push to have you held in jail to await your trial</b>. >>
+* If you reject the plea offer, because of your prior conviction, <b>**the prosecutor will push to have you held in jail to await your trial**</b>. >>
 
 * This is called pre-trial detention. Pre-trial detentions can span weeks, or even months. >>
 
@@ -131,7 +131,7 @@ DEFENSE ATTORNEY:
 
 * If you accept this plea offer, you will be asked to sign this form, which includes the recommendations for lower sentencing that I just described. >> 
 
-* Again, if you reject this plea offer and take your case to trial, Mr. Clark will pursue the maximum <b>jail sentence of 9 months and will push to have you detained to await your trial</b>. >>
+* Again, if you reject this plea offer and take your case to trial, Mr. Clark will pursue the maximum <b>**jail sentence of 9 months and will push to have you detained to await your trial**</b>. >>
 
 *Here, the simulation could provide detailed information regarding the risk of COVID exposure (for those in the COVID information conditions).*
 
@@ -160,9 +160,9 @@ BUTTONS:
 
 DIALOGUE:
 
->Plead guilty in exchange for a lower sentence (6 months probation)
+>Plead guilty in exchange for a lower sentence (**6 months probation**)
 >
->Reject the offer and risk a more severe sentence if found guilty at trial (9 months in jail)
+>Reject the offer and risk a more severe sentence if found guilty at trial (**9 months in jail**)
 
 *The participant must click one of the buttons and respond with Plead or Reject in order to proceed to the post-simulation survey questions.*
 
