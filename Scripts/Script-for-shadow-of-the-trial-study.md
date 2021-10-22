@@ -16,7 +16,7 @@ To jump to Scenario 2, click [here](#simulation-2---Theft/Larceny Scenario).
 To read these scripts and understand the meaning behind the formatting, here is a guide to how they are formatted.
 
 <ul>
-  <li> <b>Bolded text</b> denotes areas where researchers may want to easily make changes.</li>
+  <li> <b>Bolded text</b> denotes areas where researchers might be particularly interested in making changes.</li>
   <li> <em>Italicized text</em> denotes commentary as well as scene descriptions.</li>
   <li> “@U” denotes the first name of the participant. This name is typically one entered through a form on the previous page.</li>
   <li> “>>” denotes a pause at a specific point of text within the simulation and would require pressing the respective button in order to progress.</li>
@@ -157,13 +157,13 @@ DEFENSE ATTORNEY:
 
 * Based on the security camera footage and the damage to the victim’s car, I would estimate that you have a  **20/50/80** percent chance of being convicted if this case goes to trial. >>
 
-* If this case does go to trial, Mr. Clark will be seeking the maximum penalty of 24 months in jail. >>
+* If this case does go to trial, Mr. Clark will be seeking the maximum penalty of **24 months in jail**. >>
 
-* If you plead guilty now, saving the State the resources needed for a formal trial, Mr. Clark is prepared to recommend that the district court judge sentence you to **6/12/18** months rather than 24 months in jail. >>
+* If you plead guilty now, saving the State the resources needed for a formal trial, Mr. Clark is prepared to recommend that the district court judge sentence you to **6/12/18** months rather than **24 months in jail**. >>
 
 * If you accept this plea offer, you will be asked to sign this form, which includes the recommendations for lower sentencing that I just described. >>
 
-* If you reject this plea offer and take your case to trial, Mr. Clark will pursue the maximum jail sentence of 24 months. >>
+* If you reject this plea offer and take your case to trial, Mr. Clark will pursue the maximum **jail sentence of 24 months**. >>
 
 * Your signature will indicate your agreement to plead guilty and forgo your right to a trial. >>
 
@@ -177,7 +177,7 @@ DIALOGUE:
 
 >Plead guilty in exchange for a lower sentence (**6/12/18** months in jail)
 >
->Reject the offer and risk a more severe sentence if found guilty at trial (24 months in jail)
+>Reject the offer and risk a more severe sentence if found guilty at trial (**24 months in jail**)
 
 *The participant must click one of the buttons and respond with Plead Guilty or Reject Offer in order to proceed in the study to the post-simulation survey questions.*
 
@@ -282,13 +282,13 @@ DEFENSE ATTORNEY:
 
 * Based on the security camera footage and testimony from the salesclerk, I would estimate that you have a  **20/50/80** percent chance of being convicted if this case goes to trial. >>
 
-* If this case does go to trial, Mr. Clark will be seeking the maximum penalty of 24 months in jail. >>
+* If this case does go to trial, Mr. Clark will be seeking the maximum penalty of **24 months in jail**. >>
 
-* If you plead guilty now, saving the State the resources needed for a formal trial, Mr. Clark is prepared to recommend that the district court judge sentence you to **6/12/18** months rather than 24 months in jail. >>
+* If you plead guilty now, saving the State the resources needed for a formal trial, Mr. Clark is prepared to recommend that the district court judge sentence you to **6/12/18** months rather than **24 months in jail**. >>
 
 * If you accept this plea offer, you will be asked to sign this form, which includes the recommendations for lower sentencing that I just described. >>
 
-* If you reject this plea offer and take your case to trial, Mr. Clark will pursue the maximum jail sentence of 24 months. >>
+* If you reject this plea offer and take your case to trial, Mr. Clark will pursue the maximum **jail sentence of 24 months**. >>
 
 * Your signature will indicate your agreement to plead guilty and forgo your right to a trial. >>
 
@@ -302,7 +302,7 @@ DIALOGUE:
 
 >Plead guilty in exchange for a lower sentence (**6/12/18** months in jail)
 >
->Reject the offer and risk a more severe sentence if found guilty at trial (24 months in jail)
+>Reject the offer and risk a more severe sentence if found guilty at trial (**24 months in jail**)
 
 *The participant must click one of the buttons and respond with Plead Guilty or Reject Offer in order to proceed in the study to the post-simulation survey questions.*
 
