@@ -16,7 +16,7 @@ To jump to scenario 2, click [here](#scenario-2---theftlarceny-scenario).
 To read these scripts and understand the meaning behind the formatting, here is a guide to how they are formatted.
 
 <ul>
-  <li> <b>**Bolded text**</b> denotes areas where researchers may want to easily make changes.</li>
+  <li> <b>**Bolded text**</b> denotes areas where researchers might be particularly interested in making changes.</li>
   <li> <em>Italicized text</em> denotes commentary as well as scene descriptions.</li>
   <li> “@U” denotes the first name of the participant. This name is typically one entered through a form on the previous page.</li>
   <li> “>>” denotes a pause at a specific point of text within the simulation and would require pressing the respective button in order to progress.</li>
