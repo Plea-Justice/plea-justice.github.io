@@ -7,7 +7,7 @@ parent: Example Scripts
 ---
 # Shadow of the Trial (NSF I)
 
-This page contains the script dialogue of scenario 1, the hit-and-run scenario, and the script dialogue of scenario 2, the theft scenario. Users would start from the beginning of either scenario 1 or 2 once they finish creating their avatar from the avatar customization page. This script contains variable *plea discounts* (6/12/18 months) as part of the plea offer and varying *conviction probability* (in forms of either 20/50/80%) alongside the participant's *guilt status* (as either innocent/guilty).
+This page contains the script dialogue of Scenario 1, the hit-and-run scenario, and the script dialogue of Scenario 2, the theft scenario. Users would start from the beginning of either Scenario 1 or 2 once they finish creating their avatar from the avatar customization page. This script contains variable *plea discounts* (6/12/18 months) as part of the plea offer and varying *conviction probability* (in forms of either 20/50/80%) alongside the participant's *guilt status* (as either innocent/guilty).
 
 To jump to Scenario 2, click [here](#simulation-2---Theft/Larceny Scenario).
 
