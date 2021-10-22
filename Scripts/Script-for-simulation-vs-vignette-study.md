@@ -9,7 +9,7 @@ parent: Example Scripts
 
 This page contains the script dialogue of scenario 1, the hit-and-run scenario, and the script dialogue of scenario 2, the theft scenario. Users would start from the beginning of either scenario 1 or 2 once they finish creating their avatar from the avatar customization page. One of the scenarios would be presented within the simulation and the other would be presented as a vignette (resembling the script depicted here).
 
-To jump to scenario 2, click [here](#Scenario-2---Theft/Larceny-Scenario).
+To jump to scenario 2, click [here](#scenario-2---theftlarceny-scenario).
 
 <details><summary><b><p style="font-size:18px"><u>> Key/Legend</u></p></b></summary>
 
@@ -29,7 +29,7 @@ To read these scripts and understand the meaning behind the formatting, here is 
 
 *Upon finishing customizing their avatar on the avatar customization screen and pressing the “Next” button, the user will be presented with a mix of one or both of the following simulations:*
 
-## **Scenario 1 - Hit & Run**
+## Scenario 1 - Hit & Run
 
 *The simulation opens with a black background and the following white text on the screen:*
 >At 6 PM
@@ -177,7 +177,7 @@ DIALOGUE:
 *The participant must click one of the buttons and respond with Plead Guilty or Reject Offer in order to proceed in the study to the post-simulation survey questions.*
 
 
-## **Scenario 2 - Theft/Larceny Scenario**
+## Scenario 2 - Theft/Larceny Scenario
 
 *The simulation opens with a black background and the following white text on the screen:*
 >At 12 PM
