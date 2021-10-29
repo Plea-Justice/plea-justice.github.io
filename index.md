@@ -97,8 +97,9 @@ This project is distributed under [GNU GPLv3][licensing].
 ***
 
 ## Related Publications
-* 08/2021 - [Law and Human Behavior][article-1]: Guilt status influences plea outcomes beyond the shadow-of-the-trial in an interactive simulation of legal procedures
-* 06/2021 - [Journal of Experimental Psychology: Applied][article-2]: Innocence in the shadow of COVID-19: Plea decision-making during a pandemic
+* 10/2021 - [Psychology Today (In)Justice System][article-1]: Increasing the realism (or 'ecological validity') of psychological research
+* 08/2021 - [Law and Human Behavior][article-2]: Guilt status influences plea outcomes beyond the shadow-of-the-trial in an interactive simulation of legal procedures
+* 06/2021 - [Journal of Experimental Psychology: Applied][article-3]: Innocence in the shadow of COVID-19: Plea decision-making during a pandemic
 
 <!--- below are 1. comments that address long-term changes that need to be made to this page and 2. reference variables that represent external links -->
 
@@ -114,5 +115,6 @@ This project is distributed under [GNU GPLv3][licensing].
 [contact-PI]: https://mikowilford.wixsite.com/website-1
 [github-page]: https://github.com/Plea-Justice/pleabargain-simulation
 [licensing]: https://github.com/Plea-Justice/pleabargain-simulation/blob/master/LICENSE.txt
-[article-1]: https://psycnet.apa.org/record/2021-90818-001
-[article-2]: https://psycnet.apa.org/record/2021-55856-001
+[article-1]: https://www.psychologytoday.com/intl/blog/injustice-system/202110/how-could-video-game-improve-the-justice-system
+[article-2]: https://psycnet.apa.org/record/2021-90818-001
+[article-3]: https://psycnet.apa.org/record/2021-55856-001
