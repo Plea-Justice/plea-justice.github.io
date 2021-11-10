@@ -3,7 +3,7 @@ layout: page
 title: Additional Art Documentation
 date: 2019-01-01
 parent: Internal Documentation
-nav_order: 4
+nav_order: 5
 ---
 
 # Animation Documentation

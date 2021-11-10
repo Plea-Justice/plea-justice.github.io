@@ -21,6 +21,13 @@ It is recommended to turn on the "Avatar Customization" feature located on the s
 
 ***
 
+<div style="display: flex; flex-direction: column; width: 100%; align-items: center;">
+<p style="text-align: center;"><b><i>A demonstration of an interactive simulation of legal procedures.</i> <br> Virtual workshop with Law and Human Behavior and the American Psychology-Law Society</b></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RleYRcLIwjQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+***
+
 ## Features
 
 ### Animation & Dialogue

@@ -2,7 +2,7 @@
 layout: page
 title: Manual Configuration
 permalink: /internal/configuration
-nav_order: 4
+nav_order: 6
 parent: Internal Documentation
 ---
 _The researcher console now configures interactive simulations automatically. This page is meant for users who wish to directly modify the simulation code._

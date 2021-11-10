@@ -2,7 +2,7 @@
 layout: page
 title: Data Cleaner
 permalink: /internal/data-cleaner
-nav_order: 3
+nav_order: 2
 parent: Internal Documentation
 ---
 # Cleaning Exported Qualtrics Data
@@ -25,7 +25,7 @@ The survey data is exported as a .csv file, where data entries for each particip
 
 ## Brief Directions to Run Cleaner on Pleabargains Data
 
-1.  [Download the script]() and put it in the same folder as the csv file.
+1.  [Download the script](https://github.com/Plea-Justice/scripts/tree/main/clean-data) and put it in the same folder as the csv file.
 2.  Edit the script’s contents such that the following variables are assigned ...
     1.  **...** the desired file names you want:
 

@@ -2,7 +2,7 @@
 layout: page
 title: Qualtrics Survey Templates
 permalink: /internal/qualtrics-survey-templates
-nav_order: 1
+nav_order: 3
 parent: Internal Documentation
 ---
 # Different Template Types
