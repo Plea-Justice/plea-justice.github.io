@@ -107,6 +107,11 @@ This project is distributed under [GNU GPLv3][licensing].
 * 10/2021 - [Psychology Today (In)Justice System][article-1]: Increasing the realism (or 'ecological validity') of psychological research
 * 08/2021 - [Law and Human Behavior][article-2]: Guilt status influences plea outcomes beyond the shadow-of-the-trial in an interactive simulation of legal procedures
 * 06/2021 - [Journal of Experimental Psychology: Applied][article-3]: Innocence in the shadow of COVID-19: Plea decision-making during a pandemic
+* 11/2022 - [Journal of Experimental Psychology][article-4]: Terms and conditions apply: the effect of probation length and obligation disclosure on true and false guilty pleas
+* 05/2023 - [Criminal Justice and Behavior][article-5]: "Reject the Offer": The Asymmetric Impact of Defense Attorneys' Plea Recommendations
+* 06/2023 - [Journal of Experimental Psychology][article-6]: Confession evidence results in more true and false guilty pleas than eyewitness evidence
+* 03/2025 - [Law and Human Behavior][article-7]: The Psychological Allure of Alford: Does Wanting to Appear Innocent Put Innocents at Risk?
+* 10/2025 - [Behavioral Sciences][article-8]: Understanding Attorneys' Plea Advice: The Role of Defendant Guilt and Trial Penalties
 
 <!--- below are 1. comments that address long-term changes that need to be made to this page and 2. reference variables that represent external links -->
 
@@ -125,3 +130,8 @@ This project is distributed under [GNU GPLv3][licensing].
 [article-1]: https://www.psychologytoday.com/intl/blog/injustice-system/202110/how-could-video-game-improve-the-justice-system
 [article-2]: https://psycnet.apa.org/record/2021-90818-001
 [article-3]: https://psycnet.apa.org/record/2021-55856-001
+[article-4]: https://link.springer.com/article/10.1007/s11292-022-09543-9
+[article-5]: https://journals.sagepub.com/doi/full/10.1177/00938548231172515
+[article-6]: https://psycnet.apa.org/record/2023-88538-001
+[article-7]: https://psycnet.apa.org/record/2025-99117-001
+[article-8]: https://pmc.ncbi.nlm.nih.gov/articles/PMC12649738/
