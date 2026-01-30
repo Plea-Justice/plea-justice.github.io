@@ -18,7 +18,7 @@ In this case, we can either route participants through two separate Qualtrics su
 
 `Qualtrics Survey → Simulation #1 → Qualtrics Survey → Simulation #2 → Qualtrics Survey`
 
-Here we will demonstrate the first case and assume a single Qualtrics survey which participants will come back to multiple times.
+Here we will demonstrate both cases. The first one described is the single simulation case and following is the dual simulation case.
 
 1. TOC
 {: toc}
@@ -30,6 +30,15 @@ The participant will view the Qualtrics survey twice. Make sure _Prevent Ballot 
 Design a flow similar to the following, using an embedded data variable to track whether the participant has freshly opened the survey or if they have just viewed the simulation and are returning to complete follow-up questions.
 
 | ![Copy Survey Flow](/img/console/qualtrics_surveyflow.png) |
+
+## The Dual Scenario Qualtrics Survey Flow
+
+The participant will view the Qualtrics survey three seperate times. They will return to the survey in between their scenarios. Please follow the same disabling of features as given in the single simulation flow instructions to ensure the participant may view the survey more than once and so they can be directed to the appropriate part when they return. 
+
+Design a flow similar to the following, using an embedded data variable to track whether the participant has freshly opened the survey or if they have just viewed the simulation(s) and are returning to complete the follow-up questions. 
+
+| ![Copy Survey Flow](/img/console/dual_qualtrics_screenflow1.png) 
+ ![Copy Survey Flow](/img/console/dual_qualtrics_screenflow2.png) |
 
 ## Sending Participants from Qualtrics to the Simulation
 
