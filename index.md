@@ -6,8 +6,12 @@ layout: home
 nav_order: 1
 ---
 
-# The Plea Justice Project
-The Plea Justice Project provides an interactive simulation of legal procedures (it was originally designed to simulate the plea bargaining process specifcally), offering an alternative to existing paradigms in legal decision-making research (e.g., vignettes/narratives, high-stakes deception studies; Redlich et al., 2017; Wilford et al., 2019).
+<div align="center">
+
+# The PleaJustice Project
+
+</div>
+The Plea Justice Project provides an interactive simulation of legal procedures (it was originally designed to simulate the plea bargaining process specifically), offering an alternative to existing paradigms in legal decision-making research (e.g., vignettes/narratives, high-stakes deception studies; Redlich et al., 2017; Wilford et al., 2019).
 
 Participants are presented with animated scenarios in which they are represented by a customizable avatar. These scenarios incorporate animated clips, dynamic actors (i.e., law enforcment officer, judge, attorneys) and a variety of backgrounds to increase the participant's immersion in the study. 
 
@@ -22,7 +26,7 @@ It is recommended to turn on the "Avatar Customization" feature located on the s
 ***
 
 <div style="display: flex; flex-direction: column; width: 100%; align-items: center;">
-<p style="text-align: center;"><b><i>A demonstration of an interactive simulation of legal procedures.</i> <br> Virtual workshop with Law and Human Behavior and the American Psychology-Law Society</b></p>
+<p style="text-align: center;"><b><i>A demonstration of an interactive simulation of legal procedures.</i> <br> Virtual workshop co-sponsored by Law and Human Behavior and the American Psychology-Law Society (Division 41 of APA) </b></p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RleYRcLIwjQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
