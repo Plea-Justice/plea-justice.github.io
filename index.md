@@ -40,11 +40,14 @@ Participants are presented with a dynamic story composed of video clips and dial
 
 | <img src="./img/home/driving.png" alt="Avatar driving a car" width="100%"> | <img src="./img/home/shopping.png" alt="Avatar pointing to the salesclerk an item they want in an eyeglass store" width="100%"> |
 
-One of two unique scenarios is depicted -- one in which the participant-avatar is leaving a parking lot, and the other in which the participant-avatar is browsing for a pair of glasses at the mall. These animated sequences provide context to the participant as they illustrate a plausible series of events resulting in the participant-avatar being brought to court over accusations of either a hit-and-run or larceny (though, other scenarios are in development)
+One of three unique scenarios is depicted - one in which the participant-avatar is leaving a parking lot; one in which the participant-avatar is browsing for a pair of sunglasses at a retail store; one in which the participant-avatar is at a party with a friend. These animated sequences provide context to the participants, illustrating plausible series of events that lead them to be charged with a hit-and-run, theft, or drug possession (respectively).
 
 | <img src="./img/home/judge.PNG" alt="judge reminding the reader their rights" width="100%"> | <img src="./img/home/district_attorney.PNG" alt="district attorney reminding the outcomes if pleading guilty" width="100%"> |
 
-Both sequences lead up to the participant-avatar being summoned to court. For plea decision-making studies, these events culminate with the participant-avatar being offered a plea deal (typically by a defense attorney). The participant navigates the simulation by clicking through interactions with other actors. As the simulation progresses, they learn more about the incident and the context of the accusation (e.g., their guilt status).
+All sequences can easily culminate in a variety of events, including receiving a summons to appear in court, appearing before a judge (with a prosecutor presenting charges), and being interrogated by a law enforcement officer. For guilty plea studies specifically, these events can culminate with participant-avatars receiving a plea offer (typically from a defense attorney).
+
+Participants navigate the simulation by clicking through interactions with animated actors (i.e., sprites). As the simulation progresses, they learn more about the incident and the context of the accusation (e.g., guilt status, evidence).
+
 
 ### Customizable Avatars
 
@@ -108,14 +111,15 @@ This project is distributed under [GNU GPLv3][licensing].
 ***
 
 ## Related Publications
-* 10/2021 - [Psychology Today (In)Justice System][article-1]: Increasing the realism (or 'ecological validity') of psychological research
-* 08/2021 - [Law and Human Behavior][article-2]: Guilt status influences plea outcomes beyond the shadow-of-the-trial in an interactive simulation of legal procedures
-* 06/2021 - [Journal of Experimental Psychology: Applied][article-3]: Innocence in the shadow of COVID-19: Plea decision-making during a pandemic
-* 11/2022 - [Journal of Experimental Psychology][article-4]: Terms and conditions apply: the effect of probation length and obligation disclosure on true and false guilty pleas
-* 05/2023 - [Criminal Justice and Behavior][article-5]: "Reject the Offer": The Asymmetric Impact of Defense Attorneys' Plea Recommendations
-* 06/2023 - [Journal of Experimental Psychology][article-6]: Confession evidence results in more true and false guilty pleas than eyewitness evidence
-* 03/2025 - [Law and Human Behavior][article-7]: The Psychological Allure of Alford: Does Wanting to Appear Innocent Put Innocents at Risk?
-* 10/2025 - [Behavioral Sciences][article-8]: Understanding Attorneys' Plea Advice: The Role of Defendant Guilt and Trial Penalties
+* 08/2021 - [*Law and Human Behavior*][article-2]: Guilt status influences plea outcomes beyond the shadow-of-the-trial in an interactive simulation of legal procedures
+* 06/2021 - [*Journal of Experimental Criminology*][article-3]: Innocence in the shadow of COVID-19: Plea decision-making during a pandemic
+* 11/2022 - [*Journal of Experimental Psychology*][article-4]: Terms and conditions apply: the effect of probation length and obligation disclosure on true and false guilty pleas
+* 05/2023 - [*Criminal Justice and Behavior*][article-5]: "Reject the Offer": The asymmetric impact of defense attorneys' plea recommendations
+* 06/2023 - [*Journal of Experimental Criminology*][article-6]: Confession evidence results in more true and false guilty pleas than eyewitness evidence
+* 03/2025 - [*Law and Human Behavior*][article-7]: The psychological allure of Alford: does wanting to appear innocent put innocents at risk?
+* 10/2025 - [*Behavioral Sciences*][article-8]: Understanding attorneys' plea advice: the role of defendant guilt and trial penalties
+* 4/2026 – [*Applied Cognitive Psychology*][article-9]: Emphasizing Miranda’s importance promotes procedurally just decisions
+
 
 <!--- below are 1. comments that address long-term changes that need to be made to this page and 2. reference variables that represent external links -->
 
@@ -139,3 +143,4 @@ This project is distributed under [GNU GPLv3][licensing].
 [article-6]: https://psycnet.apa.org/record/2023-88538-001
 [article-7]: https://psycnet.apa.org/record/2025-99117-001
 [article-8]: https://pmc.ncbi.nlm.nih.gov/articles/PMC12649738/
+[article-9]: https://onlinelibrary.wiley.com/doi/10.1002/acp.70196
