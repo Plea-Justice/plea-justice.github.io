@@ -7,10 +7,9 @@ nav_order: 1
 ---
 
 <div align="center">
-
-# **The PleaJustice Project**
-
+  <h1>The PleaJustice Project</h1>
 </div>
+
 The Plea Justice Project provides an interactive simulation of legal procedures (it was originally designed to simulate the plea bargaining process specifically), offering an alternative to existing paradigms in legal decision-making research (e.g., vignettes/narratives, high-stakes deception studies; Redlich et al., 2017; Wilford et al., 2019).
 
 Participants are presented with animated scenarios in which they are represented by a customizable avatar. These scenarios incorporate animated clips, dynamic actors (i.e., law enforcment officer, judge, attorneys) and a variety of backgrounds to increase the participant's immersion in the study. 
