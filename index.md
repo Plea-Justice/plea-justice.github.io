@@ -38,11 +38,11 @@ It is recommended to turn on the "Avatar Customization" feature located on the s
 
 Participants are presented with a dynamic story composed of video clips and dialogue with legal actors. The participant experiences parts of the simulation in the third person (in which they are represented by an avatar) and in the first person.
 
-| <img src="./img/home/driving.png" alt="Avatar driving a car" width="100%"> | <img src="./img/home/shopping.png" alt="Avatar pointing to the salesclerk an item they want in an eyeglass store" width="100%"> |
+| <img src="./img/home/driving.png" alt="Avatar driving a car" width="100%"> | <img src="./img/home/shopping.png" alt="Avatar pointing to the salesclerk an item they want in an eyeglass store" width="100%"> | <img src="./img/home/party.png" alt="avatar at party with friend" width="100%"> |
 
 One of three unique scenarios is depicted - one in which the participant-avatar is leaving a parking lot; one in which the participant-avatar is browsing for a pair of sunglasses at a retail store; one in which the participant-avatar is at a party with a friend. These animated sequences provide context to the participants, illustrating plausible series of events that lead them to be charged with a hit-and-run, theft, or drug possession (respectively).
 
-| <img src="./img/home/judge.PNG" alt="judge reminding the reader their rights" width="100%"> | <img src="./img/home/district_attorney.PNG" alt="district attorney reminding the outcomes if pleading guilty" width="100%"> |
+| <img src="./img/home/judge.PNG" alt="judge reminding the reader their rights" width="100%"> | <img src="./img/home/district_attorney.PNG" alt="district attorney reminding the outcomes if pleading guilty" width="100%"> | <img src="./img/home/police.png" alt="police finding avatar in car" width="100%"> |
 
 All sequences can easily culminate in a variety of events, including receiving a summons to appear in court, appearing before a judge (with a prosecutor presenting charges), and being interrogated by a law enforcement officer. For guilty plea studies specifically, these events can culminate with participant-avatars receiving a plea offer (typically from a defense attorney).
 
